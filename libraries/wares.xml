@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?>
-<diff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
-	
+<?xml version="1.0" encoding="utf-8" ?>
+<diff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
 	<replace sel="//wares/ware[@id='engine_arg_l_allround_01_mk1']/use/@threshold">0</replace>
 	<replace sel="//wares/ware[@id='engine_arg_l_travel_01_mk1']/use/@threshold">0</replace>
 	<replace sel="//wares/ware[@id='engine_arg_m_allround_01_mk1']/use/@threshold">0</replace>
@@ -67,7 +67,7 @@
 	<replace sel="//wares/ware[@id='engine_tel_s_travel_01_mk3']/use/@threshold">0.8</replace>
 	<replace sel="//wares/ware[@id='engine_tel_xl_allround_01_mk1']/use/@threshold">0</replace>
 	<replace sel="//wares/ware[@id='engine_tel_xl_travel_01_mk1']/use/@threshold">0</replace>
-	
+
 	<replace sel="//wares/ware[@id='shield_arg_l_standard_01_mk1']/use/@threshold">0</replace>
 	<replace sel="//wares/ware[@id='shield_arg_l_standard_01_mk2']/use/@threshold">0.3</replace>
 	<replace sel="//wares/ware[@id='shield_arg_m_standard_01_mk1']/use/@threshold">0</replace>
@@ -98,7 +98,7 @@
 	<replace sel="//wares/ware[@id='shield_tel_s_standard_01_mk2']/use/@threshold">0.3</replace>
 	<replace sel="//wares/ware[@id='shield_tel_s_standard_01_mk3']/use/@threshold">0.5</replace>
 	<replace sel="//wares/ware[@id='shield_tel_xl_standard_01_mk1']/use/@threshold">0</replace>
-	
+
 	<replace sel="//wares/ware[@id='thruster_gen_l_allround_01_mk1']/use/@threshold">0</replace>
 	<replace sel="//wares/ware[@id='thruster_gen_l_allround_01_mk2']/use/@threshold">0.5</replace>
 	<replace sel="//wares/ware[@id='thruster_gen_l_allround_01_mk3']/use/@threshold">0.8</replace>
@@ -117,9 +117,7 @@
 	<replace sel="//wares/ware[@id='thruster_gen_xl_allround_01_mk1']/use/@threshold">0</replace>
 	<replace sel="//wares/ware[@id='thruster_gen_xl_allround_01_mk2']/use/@threshold">0.5</replace>
 	<replace sel="//wares/ware[@id='thruster_gen_xl_allround_01_mk3']/use/@threshold">0.8</replace>
-</diff>
-
-<!--
+</diff><!--
 	<replace sel="//wares/ware[@id='XXX']/use/@threshold">YYY</replace>
 	<replace sel="//wares/ware[@id='XXX']/use/@threshold">YYY</replace>
 	<replace sel="//wares/ware[@id='XXX']/use/@threshold">YYY</replace>
