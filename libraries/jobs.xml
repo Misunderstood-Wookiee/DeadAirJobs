@@ -4774,7 +4774,7 @@
           </order>
         </orders>
         <category faction="argon" tags="[factionlogic, military, fighter]" size="ship_s" />
-        <quota galaxy="80" sector="4" zone="1" />
+        <quota galaxy="38" sector="4" zone="1" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="[argon]" relation="self" comparison="exact" matchextension="false" />
         <environment buildatshipyard="true" />
         <ship>
@@ -4815,7 +4815,7 @@
           <order order="Recon" default="true" />
         </orders>
         <category faction="argon" tags="[factionlogic, military, scout]" size="ship_s" />
-        <quota galaxy="25" sector="2" />
+        <quota galaxy="8" sector="2" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="argon" relation="killmilitary" comparison="le" matchextension="false" />
         <environment buildatshipyard="true" />
         <ship>
@@ -4834,7 +4834,7 @@
           <order order="Police" default="true" />
         </orders>
         <category faction="argon" tags="[police]" size="ship_s" />
-        <quota galaxy="15" sector="1" />
+        <quota galaxy="30" sector="1" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="[argon, antigone]" relation="member" comparison="ge" matchextension="false" />
         <environment buildatshipyard="true" />
         <ship>
@@ -5129,7 +5129,7 @@
           </order>
         </orders>
         <category faction="antigone" tags="[factionlogic, military, fighter]" size="ship_s" />
-        <quota galaxy="80" sector="4" zone="1" />
+        <quota galaxy="38" sector="4" zone="1" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="[antigone]" relation="self" comparison="exact" matchextension="false" />
         <environment buildatshipyard="true" />
         <ship>
@@ -5151,7 +5151,7 @@
           <order order="Recon" default="true" />
         </orders>
         <category faction="antigone" tags="[factionlogic, military, scout]" size="ship_s" />
-        <quota galaxy="25" sector="2" />
+        <quota galaxy="8" sector="2" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="antigone" relation="self" comparison="not" matchextension="false" />
         <environment buildatshipyard="true" />
         <ship>
@@ -5170,7 +5170,7 @@
           <order order="Recon" default="true" />
         </orders>
         <category faction="antigone" tags="[factionlogic, military, scout]" size="ship_s" />
-        <quota galaxy="25" sector="2" />
+        <quota galaxy="8" sector="2" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="antigone" relation="killmilitary" comparison="le" matchextension="false" />
         <environment buildatshipyard="true" />
         <ship>
@@ -5465,7 +5465,7 @@
           </order>
         </orders>
         <category faction="paranid" tags="[factionlogic, military, fighter]" size="ship_s" />
-        <quota galaxy="80" sector="4" zone="1" />
+        <quota galaxy="38" sector="4" zone="1" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="[paranid]" relation="self" comparison="exact" matchextension="false" />
         <environment buildatshipyard="true" />
         <ship>
@@ -5487,7 +5487,7 @@
           <order order="Recon" default="true" />
         </orders>
         <category faction="paranid" tags="[factionlogic, military, scout]" size="ship_s" />
-        <quota galaxy="25" sector="2" />
+        <quota galaxy="8" sector="2" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="paranid" relation="self" comparison="not" matchextension="false" />
         <environment buildatshipyard="true" />
         <ship>
@@ -5506,7 +5506,7 @@
           <order order="Recon" default="true" />
         </orders>
         <category faction="paranid" tags="[factionlogic, military, scout]" size="ship_s" />
-        <quota galaxy="25" sector="2" />
+        <quota galaxy="8" sector="2" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="paranid" relation="killmilitary" comparison="le" matchextension="false" />
         <environment buildatshipyard="true" />
         <ship>
@@ -5525,7 +5525,7 @@
           <order order="Police" default="true" />
         </orders>
         <category faction="paranid" tags="[police]" size="ship_s" />
-        <quota galaxy="15" sector="1" />
+        <quota galaxy="30" sector="1" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="[paranid]" relation="self" comparison="exact" matchextension="false" />
         <environment buildatshipyard="true" />
         <ship>
@@ -5820,7 +5820,7 @@
           </order>
         </orders>
         <category faction="holyorder" tags="[factionlogic, military, fighter]" size="ship_s" />
-        <quota galaxy="80" sector="4" zone="1" />
+        <quota galaxy="38" sector="4" zone="1" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="[holyorder]" relation="self" comparison="exact" matchextension="false" />
         <environment buildatshipyard="true" />
         <ship>
@@ -5842,7 +5842,7 @@
           <order order="Recon" default="true" />
         </orders>
         <category faction="holyorder" tags="[factionlogic, military, scout]" size="ship_s" />
-        <quota galaxy="25" sector="2" />
+        <quota galaxy="8" sector="2" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="holyorder" relation="self" comparison="not" matchextension="false" />
         <environment buildatshipyard="true" />
         <ship>
@@ -5861,7 +5861,7 @@
           <order order="Recon" default="true" />
         </orders>
         <category faction="holyorder" tags="[factionlogic, military, scout]" size="ship_s" />
-        <quota galaxy="25" sector="2" />
+        <quota galaxy="8" sector="2" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="holyorder" relation="killmilitary" comparison="le" matchextension="false" />
         <environment buildatshipyard="true" />
         <ship>
@@ -5880,7 +5880,7 @@
           <order order="Police" default="true" />
         </orders>
         <category faction="holyorder" tags="[police]" size="ship_s" />
-        <quota galaxy="15" sector="1" />
+        <quota galaxy="30" sector="1" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="[holyorder]" relation="self" comparison="exact" matchextension="false" />
         <environment buildatshipyard="true" />
         <ship>
@@ -6175,7 +6175,7 @@
           </order>
         </orders>
         <category faction="teladi" tags="[factionlogic, military, fighter]" size="ship_s" />
-        <quota galaxy="80" sector="4" zone="1" />
+        <quota galaxy="38" sector="4" zone="1" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="[teladi]" relation="self" comparison="exact" matchextension="false" />
         <environment buildatshipyard="true" />
         <ship>
@@ -6197,7 +6197,7 @@
           <order order="Recon" default="true" />
         </orders>
         <category faction="teladi" tags="[factionlogic, military, scout]" size="ship_s" />
-        <quota galaxy="25" sector="2" />
+        <quota galaxy="8" sector="2" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="teladi" relation="self" comparison="not" matchextension="false" />
         <environment buildatshipyard="true" />
         <ship>
@@ -6216,7 +6216,7 @@
           <order order="Recon" default="true" />
         </orders>
         <category faction="teladi" tags="[factionlogic, military, scout]" size="ship_s" />
-        <quota galaxy="25" sector="2" />
+        <quota galaxy="8" sector="2" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="teladi" relation="killmilitary" comparison="le" matchextension="false" />
         <environment buildatshipyard="true" />
         <ship>
@@ -6510,7 +6510,7 @@
           </order>
         </orders>
         <category faction="ministry" tags="[factionlogic, military, fighter]" size="ship_s" />
-        <quota galaxy="80" sector="4" zone="1" />
+        <quota galaxy="38" sector="4" zone="1" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="[ministry, teladi]" relation="self" comparison="ge" matchextension="false" />
         <environment buildatshipyard="true" />
         <ship>
@@ -6532,7 +6532,7 @@
           <order order="Recon" default="true" />
         </orders>
         <category faction="ministry" tags="[factionlogic, military, scout]" size="ship_s" />
-        <quota galaxy="25" sector="2" />
+        <quota galaxy="8" sector="2" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="[ministry, teladi]" relation="self" comparison="not" matchextension="false" />
         <environment buildatshipyard="true" />
         <ship>
@@ -6551,7 +6551,7 @@
           <order order="Recon" default="true" />
         </orders>
         <category faction="ministry" tags="[factionlogic, military, scout]" size="ship_s" />
-        <quota galaxy="25" sector="2" />
+        <quota galaxy="8" sector="2" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="ministry" relation="killmilitary" comparison="le" matchextension="false" />
         <environment buildatshipyard="true" />
         <ship>
@@ -6572,7 +6572,7 @@
           </order>
         </orders>
         <category faction="ministry" tags="[factionlogic, police]" size="ship_s" />
-        <quota galaxy="15" sector="1" />
+        <quota galaxy="30" sector="1" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="[ministry, teladi]" relation="self" comparison="ge" matchextension="false" />
         <environment buildatshipyard="true" />
         <ship>
@@ -6767,7 +6767,7 @@
           </order>
         </orders>
         <category faction="xenon" tags="[factionlogic, military, fighter]" size="ship_s" />
-        <quota galaxy="80" sector="4" zone="1" />
+        <quota galaxy="38" sector="4" zone="1" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="[xenon]" relation="self" comparison="exact" matchextension="false" />
         <environment buildatshipyard="true" />
         <ship>
@@ -6807,7 +6807,7 @@
           <order order="Recon" default="true" />
         </orders>
         <category faction="xenon" tags="[factionlogic, military, scout]" size="ship_s" />
-        <quota galaxy="25" sector="2" />
+        <quota galaxy="8" sector="2" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="xenon" relation="self" comparison="not" matchextension="false" />
         <environment buildatshipyard="true" />
         <ship>
@@ -6822,7 +6822,7 @@
           <order order="Recon" default="true" />
         </orders>
         <category faction="xenon" tags="[factionlogic, military, scout]" size="ship_s" />
-        <quota galaxy="25" sector="2" />
+        <quota galaxy="8" sector="2" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="xenon" relation="killmilitary" comparison="le" matchextension="false" />
         <environment buildatshipyard="true" />
         <ship>
