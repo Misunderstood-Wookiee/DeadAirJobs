@@ -4617,7 +4617,7 @@
           </order>
         </orders>
         <category faction="scaleplate" tags="[trader]" size="ship_s" />
-        <quota galaxy="30" sector="1" />
+        <quota galaxy="50" sector="1" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="xenon" relation="self" comparison="lt" matchextension="false" />
         <environment buildatshipyard="false" gate="true" />
         <basket basket="global_illegal" />
@@ -4680,7 +4680,7 @@
           </order>
         </orders>
         <category faction="argon" tags="[factionlogic, military, destroyer]" size="ship_l" />
-        <quota galaxy="30" sector="2" />
+        <quota galaxy="50" sector="2" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="[argon]" relation="self" comparison="exact" matchextension="false" />
         <environment buildatshipyard="true" />
         <ship>
