@@ -7158,7 +7158,7 @@
           </order>
         </orders>
         <category faction="scaleplate" tags="[plunderer]" size="ship_m" />
-        <quota galaxy="24" sector="1" />
+        <quota galaxy="18" sector="1" />
         <!--<quota galaxy="3" sector="1"/>-->
         <!--<location class="galaxy" macro="xu_ep2_universe_macro" faction="[scaleplate, xenon]" relation="self" comparison="lt"/>-->
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="xenon" relation="self" comparison="lt" matchextension="false" />
@@ -7192,14 +7192,14 @@
       <job id="masstraffic_argon_civilian">
         <task task="masstraffic.generic" />
         <location class="sector" factionrace="argon" matchextension="false" />
-        <quota sector="250" />
+        <quota sector="100" />
         <masstraffic ref="masstraffic_argon_civilian" />
       </job>
       <!--argon stations-->
       <job id="masstraffic_argon_police">
         <task task="masstraffic.police" />
         <location class="station" faction="[argon, antigone]" matchextension="false" />
-        <quota station="5" />
+        <quota station="4" />
         <masstraffic ref="masstraffic_argon_police" />
       </job>
       <job id="masstraffic_argon_criminal">
@@ -7214,7 +7214,7 @@
       <job id="masstraffic_argon_dockarea">
         <task task="masstraffic.generic" />
         <location class="dockarea" factionrace="argon" matchextension="false" />
-        <quota station="20" />
+        <quota station="10" />
         <masstraffic ref="masstraffic_argon_dockarea" />
       </job>
       <job id="masstraffic_argon_pier">
@@ -7252,14 +7252,14 @@
       <job id="masstraffic_teladi_civilian">
         <task task="masstraffic.generic" />
         <location class="sector" factionrace="teladi" matchextension="false" />
-        <quota sector="250" />
+        <quota sector="100" />
         <masstraffic ref="masstraffic_teladi_civilian" />
       </job>
       <!--teladi stations-->
       <job id="masstraffic_ministry_police">
         <task task="masstraffic.police" />
         <location class="station" faction="[teladi, ministry]" matchextension="false" />
-        <quota station="5" />
+        <quota station="4" />
         <masstraffic ref="masstraffic_ministry_police" />
       </job>
       <job id="masstraffic_teladi_criminal">
@@ -7312,20 +7312,20 @@
       <job id="masstraffic_paranid_civilian">
         <task task="masstraffic.generic" />
         <location class="sector" factionrace="paranid" matchextension="false" />
-        <quota sector="250" />
+        <quota sector="100" />
         <masstraffic ref="masstraffic_paranid_civilian" />
       </job>
       <!--paranid stations-->
       <job id="masstraffic_paranid_police">
         <task task="masstraffic.police" />
         <location class="station" faction="[paranid, alliance]" matchextension="false" />
-        <quota station="5" />
+        <quota station="4" />
         <masstraffic ref="masstraffic_paranid_police" />
       </job>
       <job id="masstraffic_holyorder_police">
         <task task="masstraffic.police" />
         <location class="station" faction="holyorder" matchextension="false" />
-        <quota station="5" />
+        <quota station="4" />
         <masstraffic ref="masstraffic_holyorder_police" />
       </job>
       <job id="masstraffic_paranid_criminal">
@@ -7378,13 +7378,13 @@
       <job id="masstraffic_xenon_civilian">
         <task task="masstraffic.generic" />
         <location class="sector" factionrace="xenon" matchextension="false" />
-        <quota sector="250" />
+        <quota sector="100" />
         <masstraffic ref="masstraffic_xenon_civilian" />
       </job>
       <job id="masstraffic_xenon_station">
         <task task="masstraffic.generic" />
         <location class="station" factionrace="xenon" matchextension="false" />
-        <quota station="100" />
+        <quota station="50" />
         <masstraffic ref="masstraffic_xenon_civilian" />
       </job>
 
@@ -7392,62 +7392,62 @@
       <job id="masstraffic_hab_arg_s_01">
         <task task="masstraffic.generic" />
         <location class="habitation" macro="hab_arg_s_01_macro" matchextension="false" />
-        <quota station="50" />
+        <quota station="25" />
         <masstraffic ref="masstraffic_argon_civilian" />
       </job>
       <job id="masstraffic_hab_arg_m_01">
         <task task="masstraffic.generic" />
         <location class="habitation" macro="hab_arg_m_01_macro" matchextension="false" />
-        <quota station="60" />
+        <quota station="30" />
         <masstraffic ref="masstraffic_argon_civilian" />
       </job>
       <job id="masstraffic_hab_arg_l_01">
         <task task="masstraffic.generic" />
         <location class="habitation" macro="hab_arg_l_01_macro" matchextension="false" />
-        <quota station="70" />
+        <quota station="40" />
         <masstraffic ref="masstraffic_argon_civilian" />
       </job>
       <job id="masstraffic_hab_tel_s_01">
         <task task="masstraffic.generic" />
         <location class="habitation" macro="hab_tel_s_01_macro" matchextension="false" />
-        <quota station="50" />
+        <quota station="25" />
         <masstraffic ref="masstraffic_teladi_civilian" />
       </job>
       <job id="masstraffic_hab_tel_m_01">
         <task task="masstraffic.generic" />
         <location class="habitation" macro="hab_arg_m_01_macro" matchextension="false" />
-        <quota station="60" />
+        <quota station="30" />
         <masstraffic ref="masstraffic_teladi_civilian" />
       </job>
       <job id="masstraffic_hab_tel_l_01">
         <task task="masstraffic.generic" />
         <location class="habitation" macro="hab_tel_l_01_macro" matchextension="false" />
-        <quota station="70" />
+        <quota station="40" />
         <masstraffic ref="masstraffic_teladi_civilian" />
       </job>
       <job id="masstraffic_hab_par_s_01">
         <task task="masstraffic.generic" />
         <location class="habitation" macro="hab_par_s_01_macro" matchextension="false" />
-        <quota station="50" />
+        <quota station="25" />
         <masstraffic ref="masstraffic_paranid_civilian" />
       </job>
       <job id="masstraffic_hab_par_m_01">
         <task task="masstraffic.generic" />
         <location class="habitation" macro="hab_par_m_01_macro" matchextension="false" />
-        <quota station="60" />
+        <quota station="30" />
         <masstraffic ref="masstraffic_paranid_civilian" />
       </job>
       <job id="masstraffic_hab_par_l_01">
         <task task="masstraffic.generic" />
         <location class="habitation" macro="hab_par_l_01_macro" matchextension="false" />
-        <quota station="70" />
+        <quota station="40" />
         <masstraffic ref="masstraffic_paranid_civilian" />
       </job>
 
       <job id="masstraffic_effectzone">
         <task task="masstraffic.generic" />
         <location class="zone" macro="effectzone_macro" matchextension="false" />
-        <quota zone="250" />
+        <quota zone="125" />
         <masstraffic ref="masstraffic_argon_civilian" />
       </job>
       <!-- ARG RAIDERS -->
