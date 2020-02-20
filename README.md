@@ -1,7 +1,5 @@
 # DeadAir Jobs for X4 Foundations Public Beta 3.0
-This is an attempt to maintain DeadAirs Job fixes for DeadAirDynamicWars but be tighter constrained to Vanilla for reduced CPU usage. 
+This is an attempt to maintain DeadAirs Job for DeadAir's Gate Overhaul but be tighter constrained and closer to Vanilla ship counts for reduced CPU usage. 
 
-TL;DR
+#### TL;DR
 DeadAirJobs but for weaker CPU's
-
-#### Requires https://github.com/DeadAirRT/DeadAirDynamicWars
