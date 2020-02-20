@@ -117,7 +117,8 @@
 	<replace sel="//wares/ware[@id='thruster_gen_xl_allround_01_mk1']/use/@threshold">0</replace>
 	<replace sel="//wares/ware[@id='thruster_gen_xl_allround_01_mk2']/use/@threshold">0.5</replace>
 	<replace sel="//wares/ware[@id='thruster_gen_xl_allround_01_mk3']/use/@threshold">0.8</replace>
-</diff><!--
+</diff>
+<!--
 	<replace sel="//wares/ware[@id='XXX']/use/@threshold">YYY</replace>
 	<replace sel="//wares/ware[@id='XXX']/use/@threshold">YYY</replace>
 	<replace sel="//wares/ware[@id='XXX']/use/@threshold">YYY</replace>

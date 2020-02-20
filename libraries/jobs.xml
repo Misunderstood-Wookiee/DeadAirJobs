@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<diff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="..\..\..\Base-3.0-B5\libraries\libraries.xsd">
+<diff>
   <!-- Clusters: 79 = 40 vanilla + 39 DAG-->
   <!-- Sectors: 99 = 60 vanilla + 39 DAG-->
   <!-- Trading intermediates per sector 1L, 1M, 2S-->
@@ -7,7 +7,7 @@
   <replace sel="//jobs">
     <!-- BEGIN ARG ECONOMY -->
     <!-- TRADERS -->
-    <jobs>
+    <jobs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="..\..\..\Base-3.0-B6\libraries.xsd">
       <job id="argon_bio_trader_l" name="{20204,1301}">
         <modifiers rebuild="false" commandeerable="true" />
         <orders>
@@ -20,7 +20,7 @@
         </orders>
         <basket basket="argon_agriculture" />
         <category faction="argon" tags="[factionlogic, freighter, trader]" size="ship_l" />
-        <quota galaxy="15" sector="1" />
+        <quota galaxy="30" sector="1" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="[argon]" relation="self" comparison="exact" matchextension="false" />
         <environment buildatshipyard="true" />
         <ship>
@@ -45,7 +45,7 @@
         </orders>
         <basket basket="argon_agriculture" />
         <category faction="argon" tags="[factionlogic, freighter, trader]" size="ship_m" />
-        <quota galaxy="15" sector="1" />
+        <quota galaxy="30" sector="1" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="[argon]" relation="self" comparison="exact" matchextension="false" />
         <environment buildatshipyard="true" />
         <ship>
@@ -70,7 +70,7 @@
         </orders>
         <basket basket="argon_agriculture" />
         <category faction="argon" tags="[factionlogic, freighter, trader]" size="ship_s" />
-        <quota galaxy="15" sector="1" />
+        <quota galaxy="30" sector="1" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="[argon]" relation="self" comparison="exact" matchextension="false" />
         <environment buildatshipyard="true" />
         <ship>
@@ -95,7 +95,7 @@
         </orders>
         <basket basket="energy" />
         <category faction="argon" tags="[factionlogic, freighter, trader]" size="ship_l" />
-        <quota galaxy="15" sector="1" />
+        <quota galaxy="30" sector="1" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="[argon]" relation="self" comparison="exact" matchextension="false" />
         <environment buildatshipyard="true" />
         <ship>
@@ -120,7 +120,7 @@
         </orders>
         <basket basket="energy" />
         <category faction="argon" tags="[factionlogic, freighter, trader]" size="ship_m" />
-        <quota galaxy="15" sector="1" />
+        <quota galaxy="30" sector="1" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="[argon]" relation="self" comparison="exact" matchextension="false" />
         <environment buildatshipyard="true" />
         <ship>
@@ -145,7 +145,7 @@
         </orders>
         <basket basket="energy" />
         <category faction="argon" tags="[factionlogic, freighter, trader]" size="ship_s" />
-        <quota galaxy="15" sector="2" />
+        <quota galaxy="27" sector="2" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="[argon]" relation="self" comparison="exact" matchextension="false" />
         <environment buildatshipyard="true" />
         <ship>
@@ -170,7 +170,7 @@
         </orders>
         <basket basket="equipment" />
         <category faction="argon" tags="[factionlogic, freighter, trader]" size="ship_l" />
-        <quota galaxy="15" sector="2" />
+        <quota galaxy="27" sector="2" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="[argon]" relation="self" comparison="exact" matchextension="false" />
         <environment buildatshipyard="true" />
         <ship>
@@ -195,7 +195,7 @@
         </orders>
         <basket basket="equipment" />
         <category faction="argon" tags="[factionlogic, freighter, trader]" size="ship_m" />
-        <quota galaxy="15" sector="1" />
+        <quota galaxy="30" sector="1" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="[argon]" relation="self" comparison="exact" matchextension="false" />
         <environment buildatshipyard="true" />
         <ship>
@@ -220,7 +220,7 @@
         </orders>
         <basket basket="construction_stations" />
         <category faction="argon" tags="[factionlogic, freighter, trader]" size="ship_l" />
-        <quota galaxy="15" sector="2" />
+        <quota galaxy="27" sector="2" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="[argon]" relation="self" comparison="exact" matchextension="false" />
         <environment buildatshipyard="true" />
         <ship>
@@ -245,7 +245,7 @@
         </orders>
         <basket basket="construction_stations" />
         <category faction="argon" tags="[factionlogic, freighter, trader]" size="ship_m" />
-        <quota galaxy="15" sector="1" />
+        <quota galaxy="30" sector="1" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="[argon]" relation="self" comparison="exact" matchextension="false" />
         <environment buildatshipyard="true" />
         <ship>
@@ -270,7 +270,7 @@
         </orders>
         <basket basket="refined_gas" />
         <category faction="argon" tags="[factionlogic, freighter, trader]" size="ship_l" />
-        <quota galaxy="15" sector="1" />
+        <quota galaxy="30" sector="1" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="[argon]" relation="self" comparison="exact" matchextension="false" />
         <environment buildatshipyard="true" />
         <ship>
@@ -295,7 +295,7 @@
         </orders>
         <basket basket="refined_gas" />
         <category faction="argon" tags="[factionlogic, freighter, trader]" size="ship_m" />
-        <quota galaxy="15" sector="1" />
+        <quota galaxy="30" sector="1" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="[argon]" relation="self" comparison="exact" matchextension="false" />
         <environment buildatshipyard="true" />
         <ship>
@@ -320,7 +320,7 @@
         </orders>
         <basket basket="refined_mineral" />
         <category faction="argon" tags="[factionlogic, freighter, trader]" size="ship_l" />
-        <quota galaxy="15" sector="1" />
+        <quota galaxy="30" sector="1" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="[argon]" relation="self" comparison="exact" matchextension="false" />
         <environment buildatshipyard="true" />
         <ship>
@@ -345,7 +345,7 @@
         </orders>
         <basket basket="refined_mineral" />
         <category faction="argon" tags="[factionlogic, freighter, trader]" size="ship_m" />
-        <quota galaxy="15" sector="1" />
+        <quota galaxy="30" sector="1" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="[argon]" relation="self" comparison="exact" matchextension="false" />
         <environment buildatshipyard="true" />
         <ship>
@@ -370,7 +370,7 @@
         </orders>
         <basket basket="tech" />
         <category faction="argon" tags="[factionlogic, freighter, trader]" size="ship_l" />
-        <quota galaxy="15" sector="2" />
+        <quota galaxy="27" sector="2" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="[argon]" relation="self" comparison="exact" matchextension="false" />
         <environment buildatshipyard="true" />
         <ship>
@@ -395,7 +395,7 @@
         </orders>
         <basket basket="tech" />
         <category faction="argon" tags="[factionlogic, freighter, trader]" size="ship_m" />
-        <quota galaxy="15" sector="1" />
+        <quota galaxy="30" sector="1" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="[argon]" relation="self" comparison="exact" matchextension="false" />
         <environment buildatshipyard="true" />
         <ship>
@@ -419,7 +419,7 @@
         </orders>
         <basket basket="tech" />
         <category faction="argon" tags="[factionlogic, freighter, trader]" size="ship_s" />
-        <quota galaxy="15" sector="2" />
+        <quota galaxy="27" sector="2" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="[argon]" relation="self" comparison="exact" matchextension="false" />
         <environment buildatshipyard="true" />
         <ship>
@@ -444,7 +444,7 @@
         </orders>
         <basket basket="water" />
         <category faction="argon" tags="[factionlogic, freighter, trader]" size="ship_l" />
-        <quota galaxy="15" sector="1" />
+        <quota galaxy="30" sector="1" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="[argon]" relation="self" comparison="exact" matchextension="false" />
         <environment buildatshipyard="true" />
         <ship>
@@ -469,7 +469,7 @@
         </orders>
         <basket basket="water" />
         <category faction="argon" tags="[factionlogic, freighter, trader]" size="ship_m" />
-        <quota galaxy="15" sector="1" />
+        <quota galaxy="30" sector="1" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="[argon]" relation="self" comparison="exact" matchextension="false" />
         <environment buildatshipyard="true" />
         <ship>
@@ -494,7 +494,7 @@
         </orders>
         <basket basket="gases" />
         <category faction="argon" tags="[factionlogic, freighter, miner]" size="ship_l" />
-        <quota galaxy="15" sector="1" />
+        <quota galaxy="30" sector="1" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="[argon]" relation="self" comparison="exact" matchextension="false" regionbasket="gases" />
         <environment buildatshipyard="true" />
         <ship>
@@ -524,7 +524,7 @@
         </orders>
         <basket basket="gases" />
         <category faction="argon" tags="[factionlogic, freighter, miner]" size="ship_m" />
-        <quota galaxy="15" sector="1" />
+        <quota galaxy="30" sector="1" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="[argon]" relation="self" comparison="exact" matchextension="false" regionbasket="gases" />
         <environment buildatshipyard="true" />
         <ship>
@@ -554,7 +554,7 @@
         </orders>
         <basket basket="minerals" />
         <category faction="argon" tags="[factionlogic, freighter, miner]" size="ship_l" />
-        <quota galaxy="15" sector="1" />
+        <quota galaxy="30" sector="1" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="[argon]" relation="self" comparison="exact" matchextension="false" regionbasket="minerals" />
         <environment buildatshipyard="true" />
         <ship>
@@ -584,7 +584,7 @@
         </orders>
         <basket basket="minerals" />
         <category faction="argon" tags="[factionlogic, freighter, miner]" size="ship_m" />
-        <quota galaxy="15" sector="1" />
+        <quota galaxy="30" sector="1" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="[argon]" relation="self" comparison="exact" matchextension="false" regionbasket="minerals" />
         <environment buildatshipyard="true" />
         <ship>
@@ -613,7 +613,7 @@
         </orders>
         <basket basket="minerals" />
         <category faction="argon" tags="[factionlogic, freighter, miner]" size="ship_s" />
-        <quota galaxy="15" sector="1" />
+        <quota galaxy="30" sector="1" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="[argon]" relation="self" comparison="exact" matchextension="false" regionbasket="minerals" />
         <environment buildatshipyard="true" />
         <ship>
@@ -643,7 +643,7 @@
         </orders>
         <basket basket="ice" />
         <category faction="argon" tags="[factionlogic, freighter, miner]" size="ship_l" />
-        <quota galaxy="15" sector="1" />
+        <quota galaxy="30" sector="1" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="[argon]" relation="self" comparison="exact" matchextension="false" regionbasket="ice" />
         <environment buildatshipyard="true" />
         <ship>
@@ -673,7 +673,7 @@
         </orders>
         <basket basket="ice" />
         <category faction="argon" tags="[factionlogic, freighter, miner]" size="ship_m" />
-        <quota galaxy="15" sector="1" />
+        <quota galaxy="30" sector="1" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="[argon]" relation="self" comparison="exact" matchextension="false" regionbasket="ice" />
         <environment buildatshipyard="true" />
         <ship>
@@ -699,7 +699,7 @@
           </order>
         </orders>
         <category faction="argon" tags="[factionlogic, builder]" size="ship_xl" />
-        <quota galaxy="15" sector="1" />
+        <quota galaxy="30" sector="1" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="[argon]" relation="self" comparison="exact" matchextension="false" />
         <environment buildatshipyard="true" />
         <ship>
@@ -909,7 +909,7 @@
         </orders>
         <basket basket="argon_agriculture" />
         <category faction="antigone" tags="[factionlogic, freighter, trader]" size="ship_l" />
-        <quota galaxy="15" sector="1" />
+        <quota galaxy="30" sector="1" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="[antigone]" relation="self" comparison="exact" matchextension="false" />
         <environment buildatshipyard="true" />
         <ship>
@@ -934,7 +934,7 @@
         </orders>
         <basket basket="argon_agriculture" />
         <category faction="antigone" tags="[factionlogic, freighter, trader]" size="ship_m" />
-        <quota galaxy="15" sector="1" />
+        <quota galaxy="30" sector="1" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="[antigone]" relation="self" comparison="exact" matchextension="false" />
         <environment buildatshipyard="true" />
         <ship>
@@ -959,7 +959,7 @@
         </orders>
         <basket basket="argon_agriculture" />
         <category faction="antigone" tags="[factionlogic, freighter, trader]" size="ship_s" />
-        <quota galaxy="15" sector="1" />
+        <quota galaxy="30" sector="1" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="[antigone]" relation="self" comparison="exact" matchextension="false" />
         <environment buildatshipyard="true" />
         <ship>
@@ -984,7 +984,7 @@
         </orders>
         <basket basket="energy" />
         <category faction="antigone" tags="[factionlogic, freighter, trader]" size="ship_l" />
-        <quota galaxy="15" sector="1" />
+        <quota galaxy="30" sector="1" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="[antigone]" relation="self" comparison="exact" matchextension="false" />
         <environment buildatshipyard="true" />
         <ship>
@@ -1009,7 +1009,7 @@
         </orders>
         <basket basket="energy" />
         <category faction="antigone" tags="[factionlogic, freighter, trader]" size="ship_m" />
-        <quota galaxy="15" sector="1" />
+        <quota galaxy="30" sector="1" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="[antigone]" relation="self" comparison="exact" matchextension="false" />
         <environment buildatshipyard="true" />
         <ship>
@@ -1034,7 +1034,7 @@
         </orders>
         <basket basket="energy" />
         <category faction="antigone" tags="[factionlogic, freighter, trader]" size="ship_s" />
-        <quota galaxy="15" sector="2" />
+        <quota galaxy="27" sector="2" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="[antigone]" relation="self" comparison="exact" matchextension="false" />
         <environment buildatshipyard="true" />
         <ship>
@@ -1059,7 +1059,7 @@
         </orders>
         <basket basket="equipment" />
         <category faction="antigone" tags="[factionlogic, freighter, trader]" size="ship_l" />
-        <quota galaxy="15" sector="2" />
+        <quota galaxy="27" sector="2" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="[antigone]" relation="self" comparison="exact" matchextension="false" />
         <environment buildatshipyard="true" />
         <ship>
@@ -1084,7 +1084,7 @@
         </orders>
         <basket basket="equipment" />
         <category faction="antigone" tags="[factionlogic, freighter, trader]" size="ship_m" />
-        <quota galaxy="15" sector="1" />
+        <quota galaxy="30" sector="1" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="[antigone]" relation="self" comparison="exact" matchextension="false" />
         <environment buildatshipyard="true" />
         <ship>
@@ -1109,7 +1109,7 @@
         </orders>
         <basket basket="construction_stations" />
         <category faction="antigone" tags="[factionlogic, freighter, trader]" size="ship_l" />
-        <quota galaxy="15" sector="2" />
+        <quota galaxy="27" sector="2" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="[antigone]" relation="self" comparison="exact" matchextension="false" />
         <environment buildatshipyard="true" />
         <ship>
@@ -1134,7 +1134,7 @@
         </orders>
         <basket basket="construction_stations" />
         <category faction="antigone" tags="[factionlogic, freighter, trader]" size="ship_m" />
-        <quota galaxy="15" sector="1" />
+        <quota galaxy="30" sector="1" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="[antigone]" relation="self" comparison="exact" matchextension="false" />
         <environment buildatshipyard="true" />
         <ship>
@@ -1159,7 +1159,7 @@
         </orders>
         <basket basket="refined_gas" />
         <category faction="antigone" tags="[factionlogic, freighter, trader]" size="ship_l" />
-        <quota galaxy="15" sector="1" />
+        <quota galaxy="30" sector="1" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="[antigone]" relation="self" comparison="exact" matchextension="false" />
         <environment buildatshipyard="true" />
         <ship>
@@ -1184,7 +1184,7 @@
         </orders>
         <basket basket="refined_gas" />
         <category faction="antigone" tags="[factionlogic, freighter, trader]" size="ship_m" />
-        <quota galaxy="15" sector="1" />
+        <quota galaxy="30" sector="1" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="[antigone]" relation="self" comparison="exact" matchextension="false" />
         <environment buildatshipyard="true" />
         <ship>
@@ -1209,7 +1209,7 @@
         </orders>
         <basket basket="refined_mineral" />
         <category faction="antigone" tags="[factionlogic, freighter, trader]" size="ship_l" />
-        <quota galaxy="15" sector="1" />
+        <quota galaxy="30" sector="1" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="[antigone]" relation="self" comparison="exact" matchextension="false" />
         <environment buildatshipyard="true" />
         <ship>
@@ -1234,7 +1234,7 @@
         </orders>
         <basket basket="refined_mineral" />
         <category faction="antigone" tags="[factionlogic, freighter, trader]" size="ship_m" />
-        <quota galaxy="15" sector="1" />
+        <quota galaxy="30" sector="1" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="[antigone]" relation="self" comparison="exact" matchextension="false" />
         <environment buildatshipyard="true" />
         <ship>
@@ -1259,7 +1259,7 @@
         </orders>
         <basket basket="tech" />
         <category faction="antigone" tags="[factionlogic, freighter, trader]" size="ship_l" />
-        <quota galaxy="15" sector="2" />
+        <quota galaxy="27" sector="2" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="[antigone]" relation="self" comparison="exact" matchextension="false" />
         <environment buildatshipyard="true" />
         <ship>
@@ -1284,7 +1284,7 @@
         </orders>
         <basket basket="tech" />
         <category faction="antigone" tags="[factionlogic, freighter, trader]" size="ship_m" />
-        <quota galaxy="15" sector="1" />
+        <quota galaxy="30" sector="1" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="[antigone]" relation="self" comparison="exact" matchextension="false" />
         <environment buildatshipyard="true" />
         <ship>
@@ -1308,7 +1308,7 @@
         </orders>
         <basket basket="tech" />
         <category faction="antigone" tags="[factionlogic, freighter, trader]" size="ship_s" />
-        <quota galaxy="15" sector="2" />
+        <quota galaxy="27" sector="2" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="[antigone]" relation="self" comparison="exact" matchextension="false" />
         <environment buildatshipyard="true" />
         <ship>
@@ -1333,7 +1333,7 @@
         </orders>
         <basket basket="water" />
         <category faction="antigone" tags="[factionlogic, freighter, trader]" size="ship_l" />
-        <quota galaxy="15" sector="1" />
+        <quota galaxy="30" sector="1" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="[antigone]" relation="self" comparison="exact" matchextension="false" />
         <environment buildatshipyard="true" />
         <ship>
@@ -1358,7 +1358,7 @@
         </orders>
         <basket basket="water" />
         <category faction="antigone" tags="[factionlogic, freighter, trader]" size="ship_m" />
-        <quota galaxy="15" sector="1" />
+        <quota galaxy="30" sector="1" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="[antigone]" relation="self" comparison="exact" matchextension="false" />
         <environment buildatshipyard="true" />
         <ship>
@@ -1383,7 +1383,7 @@
         </orders>
         <basket basket="gases" />
         <category faction="antigone" tags="[factionlogic, freighter, miner]" size="ship_l" />
-        <quota galaxy="15" sector="1" />
+        <quota galaxy="30" sector="1" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="[antigone]" relation="self" comparison="exact" matchextension="false" regionbasket="gases" />
         <environment buildatshipyard="true" />
         <ship>
@@ -1413,7 +1413,7 @@
         </orders>
         <basket basket="gases" />
         <category faction="antigone" tags="[factionlogic, freighter, miner]" size="ship_m" />
-        <quota galaxy="15" sector="1" />
+        <quota galaxy="30" sector="1" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="[antigone]" relation="self" comparison="exact" matchextension="false" regionbasket="gases" />
         <environment buildatshipyard="true" />
         <ship>
@@ -1443,7 +1443,7 @@
         </orders>
         <basket basket="minerals" />
         <category faction="antigone" tags="[factionlogic, freighter, miner]" size="ship_l" />
-        <quota galaxy="15" sector="1" />
+        <quota galaxy="30" sector="1" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="[antigone]" relation="self" comparison="exact" matchextension="false" regionbasket="minerals" />
         <environment buildatshipyard="true" />
         <ship>
@@ -1473,7 +1473,7 @@
         </orders>
         <basket basket="minerals" />
         <category faction="antigone" tags="[factionlogic, freighter, miner]" size="ship_m" />
-        <quota galaxy="15" sector="1" />
+        <quota galaxy="30" sector="1" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="[antigone]" relation="self" comparison="exact" matchextension="false" regionbasket="minerals" />
         <environment buildatshipyard="true" />
         <ship>
@@ -1502,7 +1502,7 @@
         </orders>
         <basket basket="minerals" />
         <category faction="antigone" tags="[factionlogic, freighter, miner]" size="ship_s" />
-        <quota galaxy="15" sector="1" />
+        <quota galaxy="30" sector="1" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="[antigone]" relation="self" comparison="exact" matchextension="false" regionbasket="minerals" />
         <environment buildatshipyard="true" />
         <ship>
@@ -1532,7 +1532,7 @@
         </orders>
         <basket basket="ice" />
         <category faction="antigone" tags="[factionlogic, freighter, miner]" size="ship_l" />
-        <quota galaxy="15" sector="1" />
+        <quota galaxy="30" sector="1" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="[antigone]" relation="self" comparison="exact" matchextension="false" regionbasket="ice" />
         <environment buildatshipyard="true" />
         <ship>
@@ -1562,7 +1562,7 @@
         </orders>
         <basket basket="ice" />
         <category faction="antigone" tags="[factionlogic, freighter, miner]" size="ship_m" />
-        <quota galaxy="15" sector="1" />
+        <quota galaxy="30" sector="1" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="[antigone]" relation="self" comparison="exact" matchextension="false" regionbasket="ice" />
         <environment buildatshipyard="true" />
         <ship>
@@ -1588,7 +1588,7 @@
           </order>
         </orders>
         <category faction="antigone" tags="[factionlogic, builder]" size="ship_xl" />
-        <quota galaxy="15" sector="1" />
+        <quota galaxy="30" sector="1" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="[antigone]" relation="self" comparison="exact" matchextension="false" />
         <environment buildatshipyard="true" />
         <ship>
@@ -1796,7 +1796,7 @@
         </orders>
         <basket basket="paranid_agriculture" />
         <category faction="paranid" tags="[factionlogic, freighter, trader]" size="ship_l" />
-        <quota galaxy="15" sector="1" />
+        <quota galaxy="30" sector="1" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="[paranid]" relation="self" comparison="exact" matchextension="false" />
         <environment buildatshipyard="true" />
         <ship>
@@ -1821,7 +1821,7 @@
         </orders>
         <basket basket="paranid_agriculture" />
         <category faction="paranid" tags="[factionlogic, freighter, trader]" size="ship_m" />
-        <quota galaxy="15" sector="1" />
+        <quota galaxy="30" sector="1" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="[paranid]" relation="self" comparison="exact" matchextension="false" />
         <environment buildatshipyard="true" />
         <ship>
@@ -1846,7 +1846,7 @@
         </orders>
         <basket basket="paranid_agriculture" />
         <category faction="paranid" tags="[factionlogic, freighter, trader]" size="ship_s" />
-        <quota galaxy="15" sector="1" />
+        <quota galaxy="30" sector="1" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="[paranid]" relation="self" comparison="exact" matchextension="false" />
         <environment buildatshipyard="true" />
         <ship>
@@ -1871,7 +1871,7 @@
         </orders>
         <basket basket="energy" />
         <category faction="paranid" tags="[factionlogic, freighter, trader]" size="ship_l" />
-        <quota galaxy="15" sector="1" />
+        <quota galaxy="30" sector="1" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="[paranid]" relation="self" comparison="exact" matchextension="false" />
         <environment buildatshipyard="true" />
         <ship>
@@ -1896,7 +1896,7 @@
         </orders>
         <basket basket="energy" />
         <category faction="paranid" tags="[factionlogic, freighter, trader]" size="ship_m" />
-        <quota galaxy="15" sector="1" />
+        <quota galaxy="30" sector="1" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="[paranid]" relation="self" comparison="exact" matchextension="false" />
         <environment buildatshipyard="true" />
         <ship>
@@ -1921,7 +1921,7 @@
         </orders>
         <basket basket="energy" />
         <category faction="paranid" tags="[factionlogic, freighter, trader]" size="ship_s" />
-        <quota galaxy="15" sector="2" />
+        <quota galaxy="27" sector="2" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="[paranid]" relation="self" comparison="exact" matchextension="false" />
         <environment buildatshipyard="true" />
         <ship>
@@ -1946,7 +1946,7 @@
         </orders>
         <basket basket="equipment" />
         <category faction="paranid" tags="[factionlogic, freighter, trader]" size="ship_l" />
-        <quota galaxy="15" sector="2" />
+        <quota galaxy="27" sector="2" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="[paranid]" relation="self" comparison="exact" matchextension="false" />
         <environment buildatshipyard="true" />
         <ship>
@@ -1971,7 +1971,7 @@
         </orders>
         <basket basket="equipment" />
         <category faction="paranid" tags="[factionlogic, freighter, trader]" size="ship_m" />
-        <quota galaxy="15" sector="1" />
+        <quota galaxy="30" sector="1" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="[paranid]" relation="self" comparison="exact" matchextension="false" />
         <environment buildatshipyard="true" />
         <ship>
@@ -1996,7 +1996,7 @@
         </orders>
         <basket basket="construction_stations" />
         <category faction="paranid" tags="[factionlogic, freighter, trader]" size="ship_l" />
-        <quota galaxy="15" sector="2" />
+        <quota galaxy="27" sector="2" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="[paranid]" relation="self" comparison="exact" matchextension="false" />
         <environment buildatshipyard="true" />
         <ship>
@@ -2021,7 +2021,7 @@
         </orders>
         <basket basket="construction_stations" />
         <category faction="paranid" tags="[factionlogic, freighter, trader]" size="ship_m" />
-        <quota galaxy="15" sector="1" />
+        <quota galaxy="30" sector="1" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="[paranid]" relation="self" comparison="exact" matchextension="false" />
         <environment buildatshipyard="true" />
         <ship>
@@ -2046,7 +2046,7 @@
         </orders>
         <basket basket="refined_gas" />
         <category faction="paranid" tags="[factionlogic, freighter, trader]" size="ship_l" />
-        <quota galaxy="15" sector="1" />
+        <quota galaxy="30" sector="1" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="[paranid]" relation="self" comparison="exact" matchextension="false" />
         <environment buildatshipyard="true" />
         <ship>
@@ -2071,7 +2071,7 @@
         </orders>
         <basket basket="refined_gas" />
         <category faction="paranid" tags="[factionlogic, freighter, trader]" size="ship_m" />
-        <quota galaxy="15" sector="1" />
+        <quota galaxy="30" sector="1" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="[paranid]" relation="self" comparison="exact" matchextension="false" />
         <environment buildatshipyard="true" />
         <ship>
@@ -2096,7 +2096,7 @@
         </orders>
         <basket basket="refined_mineral" />
         <category faction="paranid" tags="[factionlogic, freighter, trader]" size="ship_l" />
-        <quota galaxy="15" sector="1" />
+        <quota galaxy="30" sector="1" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="[paranid]" relation="self" comparison="exact" matchextension="false" />
         <environment buildatshipyard="true" />
         <ship>
@@ -2121,7 +2121,7 @@
         </orders>
         <basket basket="refined_mineral" />
         <category faction="paranid" tags="[factionlogic, freighter, trader]" size="ship_m" />
-        <quota galaxy="15" sector="1" />
+        <quota galaxy="30" sector="1" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="[paranid]" relation="self" comparison="exact" matchextension="false" />
         <environment buildatshipyard="true" />
         <ship>
@@ -2146,7 +2146,7 @@
         </orders>
         <basket basket="tech" />
         <category faction="paranid" tags="[factionlogic, freighter, trader]" size="ship_l" />
-        <quota galaxy="15" sector="2" />
+        <quota galaxy="27" sector="2" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="[paranid]" relation="self" comparison="exact" matchextension="false" />
         <environment buildatshipyard="true" />
         <ship>
@@ -2171,7 +2171,7 @@
         </orders>
         <basket basket="tech" />
         <category faction="paranid" tags="[factionlogic, freighter, trader]" size="ship_m" />
-        <quota galaxy="15" sector="1" />
+        <quota galaxy="30" sector="1" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="[paranid]" relation="self" comparison="exact" matchextension="false" />
         <environment buildatshipyard="true" />
         <ship>
@@ -2195,7 +2195,7 @@
         </orders>
         <basket basket="tech" />
         <category faction="paranid" tags="[factionlogic, freighter, trader]" size="ship_s" />
-        <quota galaxy="15" sector="2" />
+        <quota galaxy="27" sector="2" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="[paranid]" relation="self" comparison="exact" matchextension="false" />
         <environment buildatshipyard="true" />
         <ship>
@@ -2220,7 +2220,7 @@
         </orders>
         <basket basket="water" />
         <category faction="paranid" tags="[factionlogic, freighter, trader]" size="ship_l" />
-        <quota galaxy="15" sector="1" />
+        <quota galaxy="30" sector="1" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="[paranid]" relation="self" comparison="exact" matchextension="false" />
         <environment buildatshipyard="true" />
         <ship>
@@ -2245,7 +2245,7 @@
         </orders>
         <basket basket="water" />
         <category faction="paranid" tags="[factionlogic, freighter, trader]" size="ship_m" />
-        <quota galaxy="15" sector="1" />
+        <quota galaxy="30" sector="1" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="[paranid]" relation="self" comparison="exact" matchextension="false" />
         <environment buildatshipyard="true" />
         <ship>
@@ -2270,7 +2270,7 @@
         </orders>
         <basket basket="gases" />
         <category faction="paranid" tags="[factionlogic, freighter, miner]" size="ship_l" />
-        <quota galaxy="15" sector="1" />
+        <quota galaxy="30" sector="1" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="[paranid]" relation="self" comparison="exact" matchextension="false" regionbasket="gases" />
         <environment buildatshipyard="true" />
         <ship>
@@ -2300,7 +2300,7 @@
         </orders>
         <basket basket="gases" />
         <category faction="paranid" tags="[factionlogic, freighter, miner]" size="ship_m" />
-        <quota galaxy="15" sector="1" />
+        <quota galaxy="30" sector="1" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="[paranid]" relation="self" comparison="exact" matchextension="false" regionbasket="gases" />
         <environment buildatshipyard="true" />
         <ship>
@@ -2330,7 +2330,7 @@
         </orders>
         <basket basket="minerals" />
         <category faction="paranid" tags="[factionlogic, freighter, miner]" size="ship_l" />
-        <quota galaxy="15" sector="1" />
+        <quota galaxy="30" sector="1" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="[paranid]" relation="self" comparison="exact" matchextension="false" regionbasket="minerals" />
         <environment buildatshipyard="true" />
         <ship>
@@ -2360,7 +2360,7 @@
         </orders>
         <basket basket="minerals" />
         <category faction="paranid" tags="[factionlogic, freighter, miner]" size="ship_m" />
-        <quota galaxy="15" sector="1" />
+        <quota galaxy="30" sector="1" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="[paranid]" relation="self" comparison="exact" matchextension="false" regionbasket="minerals" />
         <environment buildatshipyard="true" />
         <ship>
@@ -2389,7 +2389,7 @@
         </orders>
         <basket basket="minerals" />
         <category faction="paranid" tags="[factionlogic, freighter, miner]" size="ship_s" />
-        <quota galaxy="15" sector="1" />
+        <quota galaxy="30" sector="1" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="[paranid]" relation="self" comparison="exact" matchextension="false" regionbasket="minerals" />
         <environment buildatshipyard="true" />
         <ship>
@@ -2419,7 +2419,7 @@
         </orders>
         <basket basket="ice" />
         <category faction="paranid" tags="[factionlogic, freighter, miner]" size="ship_l" />
-        <quota galaxy="15" sector="1" />
+        <quota galaxy="30" sector="1" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="[paranid]" relation="self" comparison="exact" matchextension="false" regionbasket="ice" />
         <environment buildatshipyard="true" />
         <ship>
@@ -2449,7 +2449,7 @@
         </orders>
         <basket basket="ice" />
         <category faction="paranid" tags="[factionlogic, freighter, miner]" size="ship_m" />
-        <quota galaxy="15" sector="1" />
+        <quota galaxy="30" sector="1" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="[paranid]" relation="self" comparison="exact" matchextension="false" regionbasket="ice" />
         <environment buildatshipyard="true" />
         <ship>
@@ -2475,7 +2475,7 @@
           </order>
         </orders>
         <category faction="paranid" tags="[factionlogic, builder]" size="ship_xl" />
-        <quota galaxy="15" sector="1" />
+        <quota galaxy="30" sector="1" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="[paranid]" relation="self" comparison="exact" matchextension="false" />
         <environment buildatshipyard="true" />
         <ship>
@@ -2683,7 +2683,7 @@
         </orders>
         <basket basket="paranid_agriculture" />
         <category faction="holyorder" tags="[factionlogic, freighter, trader]" size="ship_l" />
-        <quota galaxy="15" sector="1" />
+        <quota galaxy="30" sector="1" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="[holyorder]" relation="self" comparison="exact" matchextension="false" />
         <environment buildatshipyard="true" />
         <ship>
@@ -2708,7 +2708,7 @@
         </orders>
         <basket basket="paranid_agriculture" />
         <category faction="holyorder" tags="[factionlogic, freighter, trader]" size="ship_m" />
-        <quota galaxy="15" sector="1" />
+        <quota galaxy="30" sector="1" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="[holyorder]" relation="self" comparison="exact" matchextension="false" />
         <environment buildatshipyard="true" />
         <ship>
@@ -2733,7 +2733,7 @@
         </orders>
         <basket basket="paranid_agriculture" />
         <category faction="holyorder" tags="[factionlogic, freighter, trader]" size="ship_s" />
-        <quota galaxy="15" sector="1" />
+        <quota galaxy="30" sector="1" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="[holyorder]" relation="self" comparison="exact" matchextension="false" />
         <environment buildatshipyard="true" />
         <ship>
@@ -2758,7 +2758,7 @@
         </orders>
         <basket basket="energy" />
         <category faction="holyorder" tags="[factionlogic, freighter, trader]" size="ship_l" />
-        <quota galaxy="15" sector="1" />
+        <quota galaxy="30" sector="1" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="[holyorder]" relation="self" comparison="exact" matchextension="false" />
         <environment buildatshipyard="true" />
         <ship>
@@ -2783,7 +2783,7 @@
         </orders>
         <basket basket="energy" />
         <category faction="holyorder" tags="[factionlogic, freighter, trader]" size="ship_m" />
-        <quota galaxy="15" sector="1" />
+        <quota galaxy="30" sector="1" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="[holyorder]" relation="self" comparison="exact" matchextension="false" />
         <environment buildatshipyard="true" />
         <ship>
@@ -2808,7 +2808,7 @@
         </orders>
         <basket basket="energy" />
         <category faction="holyorder" tags="[factionlogic, freighter, trader]" size="ship_s" />
-        <quota galaxy="15" sector="2" />
+        <quota galaxy="27" sector="2" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="[holyorder]" relation="self" comparison="exact" matchextension="false" />
         <environment buildatshipyard="true" />
         <ship>
@@ -2833,7 +2833,7 @@
         </orders>
         <basket basket="equipment" />
         <category faction="holyorder" tags="[factionlogic, freighter, trader]" size="ship_l" />
-        <quota galaxy="15" sector="2" />
+        <quota galaxy="27" sector="2" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="[holyorder]" relation="self" comparison="exact" matchextension="false" />
         <environment buildatshipyard="true" />
         <ship>
@@ -2858,7 +2858,7 @@
         </orders>
         <basket basket="equipment" />
         <category faction="holyorder" tags="[factionlogic, freighter, trader]" size="ship_m" />
-        <quota galaxy="15" sector="1" />
+        <quota galaxy="30" sector="1" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="[holyorder]" relation="self" comparison="exact" matchextension="false" />
         <environment buildatshipyard="true" />
         <ship>
@@ -2883,7 +2883,7 @@
         </orders>
         <basket basket="construction_stations" />
         <category faction="holyorder" tags="[factionlogic, freighter, trader]" size="ship_l" />
-        <quota galaxy="15" sector="2" />
+        <quota galaxy="27" sector="2" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="[holyorder]" relation="self" comparison="exact" matchextension="false" />
         <environment buildatshipyard="true" />
         <ship>
@@ -2908,7 +2908,7 @@
         </orders>
         <basket basket="construction_stations" />
         <category faction="holyorder" tags="[factionlogic, freighter, trader]" size="ship_m" />
-        <quota galaxy="15" sector="1" />
+        <quota galaxy="30" sector="1" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="[holyorder]" relation="self" comparison="exact" matchextension="false" />
         <environment buildatshipyard="true" />
         <ship>
@@ -2933,7 +2933,7 @@
         </orders>
         <basket basket="refined_gas" />
         <category faction="holyorder" tags="[factionlogic, freighter, trader]" size="ship_l" />
-        <quota galaxy="15" sector="1" />
+        <quota galaxy="30" sector="1" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="[holyorder]" relation="self" comparison="exact" matchextension="false" />
         <environment buildatshipyard="true" />
         <ship>
@@ -2958,7 +2958,7 @@
         </orders>
         <basket basket="refined_gas" />
         <category faction="holyorder" tags="[factionlogic, freighter, trader]" size="ship_m" />
-        <quota galaxy="15" sector="1" />
+        <quota galaxy="30" sector="1" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="[holyorder]" relation="self" comparison="exact" matchextension="false" />
         <environment buildatshipyard="true" />
         <ship>
@@ -2983,7 +2983,7 @@
         </orders>
         <basket basket="refined_mineral" />
         <category faction="holyorder" tags="[factionlogic, freighter, trader]" size="ship_l" />
-        <quota galaxy="15" sector="1" />
+        <quota galaxy="30" sector="1" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="[holyorder]" relation="self" comparison="exact" matchextension="false" />
         <environment buildatshipyard="true" />
         <ship>
@@ -3008,7 +3008,7 @@
         </orders>
         <basket basket="refined_mineral" />
         <category faction="holyorder" tags="[factionlogic, freighter, trader]" size="ship_m" />
-        <quota galaxy="15" sector="1" />
+        <quota galaxy="30" sector="1" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="[holyorder]" relation="self" comparison="exact" matchextension="false" />
         <environment buildatshipyard="true" />
         <ship>
@@ -3033,7 +3033,7 @@
         </orders>
         <basket basket="tech" />
         <category faction="holyorder" tags="[factionlogic, freighter, trader]" size="ship_l" />
-        <quota galaxy="15" sector="2" />
+        <quota galaxy="27" sector="2" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="[holyorder]" relation="self" comparison="exact" matchextension="false" />
         <environment buildatshipyard="true" />
         <ship>
@@ -3058,7 +3058,7 @@
         </orders>
         <basket basket="tech" />
         <category faction="holyorder" tags="[factionlogic, freighter, trader]" size="ship_m" />
-        <quota galaxy="15" sector="1" />
+        <quota galaxy="30" sector="1" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="[holyorder]" relation="self" comparison="exact" matchextension="false" />
         <environment buildatshipyard="true" />
         <ship>
@@ -3082,7 +3082,7 @@
         </orders>
         <basket basket="tech" />
         <category faction="holyorder" tags="[factionlogic, freighter, trader]" size="ship_s" />
-        <quota galaxy="15" sector="2" />
+        <quota galaxy="27" sector="2" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="[holyorder]" relation="self" comparison="exact" matchextension="false" />
         <environment buildatshipyard="true" />
         <ship>
@@ -3107,7 +3107,7 @@
         </orders>
         <basket basket="water" />
         <category faction="holyorder" tags="[factionlogic, freighter, trader]" size="ship_l" />
-        <quota galaxy="15" sector="1" />
+        <quota galaxy="30" sector="1" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="[holyorder]" relation="self" comparison="exact" matchextension="false" />
         <environment buildatshipyard="true" />
         <ship>
@@ -3132,7 +3132,7 @@
         </orders>
         <basket basket="water" />
         <category faction="holyorder" tags="[factionlogic, freighter, trader]" size="ship_m" />
-        <quota galaxy="15" sector="1" />
+        <quota galaxy="30" sector="1" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="[holyorder]" relation="self" comparison="exact" matchextension="false" />
         <environment buildatshipyard="true" />
         <ship>
@@ -3157,7 +3157,7 @@
         </orders>
         <basket basket="gases" />
         <category faction="holyorder" tags="[factionlogic, freighter, miner]" size="ship_l" />
-        <quota galaxy="15" sector="1" />
+        <quota galaxy="30" sector="1" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="[holyorder]" relation="self" comparison="exact" matchextension="false" regionbasket="gases" />
         <environment buildatshipyard="true" />
         <ship>
@@ -3187,7 +3187,7 @@
         </orders>
         <basket basket="gases" />
         <category faction="holyorder" tags="[factionlogic, freighter, miner]" size="ship_m" />
-        <quota galaxy="15" sector="1" />
+        <quota galaxy="30" sector="1" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="[holyorder]" relation="self" comparison="exact" matchextension="false" regionbasket="gases" />
         <environment buildatshipyard="true" />
         <ship>
@@ -3217,7 +3217,7 @@
         </orders>
         <basket basket="minerals" />
         <category faction="holyorder" tags="[factionlogic, freighter, miner]" size="ship_l" />
-        <quota galaxy="15" sector="1" />
+        <quota galaxy="30" sector="1" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="[holyorder]" relation="self" comparison="exact" matchextension="false" regionbasket="minerals" />
         <environment buildatshipyard="true" />
         <ship>
@@ -3247,7 +3247,7 @@
         </orders>
         <basket basket="minerals" />
         <category faction="holyorder" tags="[factionlogic, freighter, miner]" size="ship_m" />
-        <quota galaxy="15" sector="1" />
+        <quota galaxy="30" sector="1" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="[holyorder]" relation="self" comparison="exact" matchextension="false" regionbasket="minerals" />
         <environment buildatshipyard="true" />
         <ship>
@@ -3276,7 +3276,7 @@
         </orders>
         <basket basket="minerals" />
         <category faction="holyorder" tags="[factionlogic, freighter, miner]" size="ship_s" />
-        <quota galaxy="15" sector="1" />
+        <quota galaxy="30" sector="1" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="[holyorder]" relation="self" comparison="exact" matchextension="false" regionbasket="minerals" />
         <environment buildatshipyard="true" />
         <ship>
@@ -3306,7 +3306,7 @@
         </orders>
         <basket basket="ice" />
         <category faction="holyorder" tags="[factionlogic, freighter, miner]" size="ship_l" />
-        <quota galaxy="15" sector="1" />
+        <quota galaxy="30" sector="1" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="[holyorder]" relation="self" comparison="exact" matchextension="false" regionbasket="ice" />
         <environment buildatshipyard="true" />
         <ship>
@@ -3336,7 +3336,7 @@
         </orders>
         <basket basket="ice" />
         <category faction="holyorder" tags="[factionlogic, freighter, miner]" size="ship_m" />
-        <quota galaxy="15" sector="1" />
+        <quota galaxy="30" sector="1" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="[holyorder]" relation="self" comparison="exact" matchextension="false" regionbasket="ice" />
         <environment buildatshipyard="true" />
         <ship>
@@ -3362,7 +3362,7 @@
           </order>
         </orders>
         <category faction="holyorder" tags="[factionlogic, builder]" size="ship_xl" />
-        <quota galaxy="15" sector="1" />
+        <quota galaxy="30" sector="1" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="[holyorder]" relation="self" comparison="exact" matchextension="false" />
         <environment buildatshipyard="true" />
         <ship>
@@ -3570,7 +3570,7 @@
         </orders>
         <basket basket="teladi_agriculture" />
         <category faction="teladi" tags="[factionlogic, freighter, trader]" size="ship_l" />
-        <quota galaxy="15" sector="1" />
+        <quota galaxy="30" sector="1" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="[teladi]" relation="self" comparison="exact" matchextension="false" />
         <environment buildatshipyard="true" />
         <ship>
@@ -3595,7 +3595,7 @@
         </orders>
         <basket basket="teladi_agriculture" />
         <category faction="teladi" tags="[factionlogic, freighter, trader]" size="ship_m" />
-        <quota galaxy="15" sector="1" />
+        <quota galaxy="30" sector="1" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="[teladi]" relation="self" comparison="exact" matchextension="false" />
         <environment buildatshipyard="true" />
         <ship>
@@ -3620,7 +3620,7 @@
         </orders>
         <basket basket="teladi_agriculture" />
         <category faction="teladi" tags="[factionlogic, freighter, trader]" size="ship_s" />
-        <quota galaxy="15" sector="1" />
+        <quota galaxy="30" sector="1" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="[teladi]" relation="self" comparison="exact" matchextension="false" />
         <environment buildatshipyard="true" />
         <ship>
@@ -3645,7 +3645,7 @@
         </orders>
         <basket basket="energy" />
         <category faction="teladi" tags="[factionlogic, freighter, trader]" size="ship_l" />
-        <quota galaxy="15" sector="1" />
+        <quota galaxy="30" sector="1" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="[teladi]" relation="self" comparison="exact" matchextension="false" />
         <environment buildatshipyard="true" />
         <ship>
@@ -3670,7 +3670,7 @@
         </orders>
         <basket basket="energy" />
         <category faction="teladi" tags="[factionlogic, freighter, trader]" size="ship_m" />
-        <quota galaxy="15" sector="1" />
+        <quota galaxy="30" sector="1" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="[teladi]" relation="self" comparison="exact" matchextension="false" />
         <environment buildatshipyard="true" />
         <ship>
@@ -3695,7 +3695,7 @@
         </orders>
         <basket basket="energy" />
         <category faction="teladi" tags="[factionlogic, freighter, trader]" size="ship_s" />
-        <quota galaxy="15" sector="2" />
+        <quota galaxy="27" sector="2" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="[teladi]" relation="self" comparison="exact" matchextension="false" />
         <environment buildatshipyard="true" />
         <ship>
@@ -3720,7 +3720,7 @@
         </orders>
         <basket basket="equipment" />
         <category faction="teladi" tags="[factionlogic, freighter, trader]" size="ship_l" />
-        <quota galaxy="15" sector="2" />
+        <quota galaxy="27" sector="2" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="[teladi]" relation="self" comparison="exact" matchextension="false" />
         <environment buildatshipyard="true" />
         <ship>
@@ -3745,7 +3745,7 @@
         </orders>
         <basket basket="equipment" />
         <category faction="teladi" tags="[factionlogic, freighter, trader]" size="ship_m" />
-        <quota galaxy="15" sector="1" />
+        <quota galaxy="30" sector="1" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="[teladi]" relation="self" comparison="exact" matchextension="false" />
         <environment buildatshipyard="true" />
         <ship>
@@ -3770,7 +3770,7 @@
         </orders>
         <basket basket="construction_stations" />
         <category faction="teladi" tags="[factionlogic, freighter, trader]" size="ship_l" />
-        <quota galaxy="15" sector="2" />
+        <quota galaxy="27" sector="2" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="[teladi]" relation="self" comparison="exact" matchextension="false" />
         <environment buildatshipyard="true" />
         <ship>
@@ -3795,7 +3795,7 @@
         </orders>
         <basket basket="construction_stations" />
         <category faction="teladi" tags="[factionlogic, freighter, trader]" size="ship_m" />
-        <quota galaxy="15" sector="1" />
+        <quota galaxy="30" sector="1" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="[teladi]" relation="self" comparison="exact" matchextension="false" />
         <environment buildatshipyard="true" />
         <ship>
@@ -3820,7 +3820,7 @@
         </orders>
         <basket basket="refined_gas" />
         <category faction="teladi" tags="[factionlogic, freighter, trader]" size="ship_l" />
-        <quota galaxy="15" sector="1" />
+        <quota galaxy="30" sector="1" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="[teladi]" relation="self" comparison="exact" matchextension="false" />
         <environment buildatshipyard="true" />
         <ship>
@@ -3845,7 +3845,7 @@
         </orders>
         <basket basket="refined_gas" />
         <category faction="teladi" tags="[factionlogic, freighter, trader]" size="ship_m" />
-        <quota galaxy="15" sector="1" />
+        <quota galaxy="30" sector="1" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="[teladi]" relation="self" comparison="exact" matchextension="false" />
         <environment buildatshipyard="true" />
         <ship>
@@ -3870,7 +3870,7 @@
         </orders>
         <basket basket="refined_mineral" />
         <category faction="teladi" tags="[factionlogic, freighter, trader]" size="ship_l" />
-        <quota galaxy="15" sector="1" />
+        <quota galaxy="30" sector="1" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="[teladi]" relation="self" comparison="exact" matchextension="false" />
         <environment buildatshipyard="true" />
         <ship>
@@ -3895,7 +3895,7 @@
         </orders>
         <basket basket="refined_mineral" />
         <category faction="teladi" tags="[factionlogic, freighter, trader]" size="ship_m" />
-        <quota galaxy="15" sector="1" />
+        <quota galaxy="30" sector="1" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="[teladi]" relation="self" comparison="exact" matchextension="false" />
         <environment buildatshipyard="true" />
         <ship>
@@ -3920,7 +3920,7 @@
         </orders>
         <basket basket="tech" />
         <category faction="teladi" tags="[factionlogic, freighter, trader]" size="ship_l" />
-        <quota galaxy="15" sector="2" />
+        <quota galaxy="27" sector="2" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="[teladi]" relation="self" comparison="exact" matchextension="false" />
         <environment buildatshipyard="true" />
         <ship>
@@ -3945,7 +3945,7 @@
         </orders>
         <basket basket="tech" />
         <category faction="teladi" tags="[factionlogic, freighter, trader]" size="ship_m" />
-        <quota galaxy="15" sector="1" />
+        <quota galaxy="30" sector="1" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="[teladi]" relation="self" comparison="exact" matchextension="false" />
         <environment buildatshipyard="true" />
         <ship>
@@ -3969,7 +3969,7 @@
         </orders>
         <basket basket="tech" />
         <category faction="teladi" tags="[factionlogic, freighter, trader]" size="ship_s" />
-        <quota galaxy="15" sector="2" />
+        <quota galaxy="27" sector="2" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="[teladi]" relation="self" comparison="exact" matchextension="false" />
         <environment buildatshipyard="true" />
         <ship>
@@ -3994,7 +3994,7 @@
         </orders>
         <basket basket="water" />
         <category faction="teladi" tags="[factionlogic, freighter, trader]" size="ship_l" />
-        <quota galaxy="15" sector="1" />
+        <quota galaxy="30" sector="1" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="[teladi]" relation="self" comparison="exact" matchextension="false" />
         <environment buildatshipyard="true" />
         <ship>
@@ -4019,7 +4019,7 @@
         </orders>
         <basket basket="water" />
         <category faction="teladi" tags="[factionlogic, freighter, trader]" size="ship_m" />
-        <quota galaxy="15" sector="1" />
+        <quota galaxy="30" sector="1" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="[teladi]" relation="self" comparison="exact" matchextension="false" />
         <environment buildatshipyard="true" />
         <ship>
@@ -4044,7 +4044,7 @@
         </orders>
         <basket basket="gases" />
         <category faction="teladi" tags="[factionlogic, freighter, miner]" size="ship_l" />
-        <quota galaxy="15" sector="1" />
+        <quota galaxy="30" sector="1" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="[teladi]" relation="self" comparison="exact" matchextension="false" regionbasket="gases" />
         <environment buildatshipyard="true" />
         <ship>
@@ -4074,7 +4074,7 @@
         </orders>
         <basket basket="gases" />
         <category faction="teladi" tags="[factionlogic, freighter, miner]" size="ship_m" />
-        <quota galaxy="15" sector="1" />
+        <quota galaxy="30" sector="1" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="[teladi]" relation="self" comparison="exact" matchextension="false" regionbasket="gases" />
         <environment buildatshipyard="true" />
         <ship>
@@ -4104,7 +4104,7 @@
         </orders>
         <basket basket="minerals" />
         <category faction="teladi" tags="[factionlogic, freighter, miner]" size="ship_l" />
-        <quota galaxy="15" sector="1" />
+        <quota galaxy="30" sector="1" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="[teladi]" relation="self" comparison="exact" matchextension="false" regionbasket="minerals" />
         <environment buildatshipyard="true" />
         <ship>
@@ -4134,7 +4134,7 @@
         </orders>
         <basket basket="minerals" />
         <category faction="teladi" tags="[factionlogic, freighter, miner]" size="ship_m" />
-        <quota galaxy="15" sector="1" />
+        <quota galaxy="30" sector="1" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="[teladi]" relation="self" comparison="exact" matchextension="false" regionbasket="minerals" />
         <environment buildatshipyard="true" />
         <ship>
@@ -4163,7 +4163,7 @@
         </orders>
         <basket basket="minerals" />
         <category faction="teladi" tags="[factionlogic, freighter, miner]" size="ship_s" />
-        <quota galaxy="15" sector="1" />
+        <quota galaxy="30" sector="1" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="[teladi]" relation="self" comparison="exact" matchextension="false" regionbasket="minerals" />
         <environment buildatshipyard="true" />
         <ship>
@@ -4193,7 +4193,7 @@
         </orders>
         <basket basket="ice" />
         <category faction="teladi" tags="[factionlogic, freighter, miner]" size="ship_l" />
-        <quota galaxy="15" sector="1" />
+        <quota galaxy="30" sector="1" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="[teladi]" relation="self" comparison="exact" matchextension="false" regionbasket="ice" />
         <environment buildatshipyard="true" />
         <ship>
@@ -4223,7 +4223,7 @@
         </orders>
         <basket basket="ice" />
         <category faction="teladi" tags="[factionlogic, freighter, miner]" size="ship_m" />
-        <quota galaxy="15" sector="1" />
+        <quota galaxy="30" sector="1" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="[teladi]" relation="self" comparison="exact" matchextension="false" regionbasket="ice" />
         <environment buildatshipyard="true" />
         <ship>
@@ -4249,7 +4249,7 @@
           </order>
         </orders>
         <category faction="teladi" tags="[factionlogic, builder]" size="ship_xl" />
-        <quota galaxy="15" sector="1" />
+        <quota galaxy="30" sector="1" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="[teladi]" relation="self" comparison="exact" matchextension="false" />
         <environment buildatshipyard="true" />
         <ship>
@@ -4473,7 +4473,7 @@
         </orders>
         <basket basket="minerals_xenon" />
         <category faction="xenon" tags="[factionlogic, miner]" size="ship_m" />
-        <quota galaxy="110" sector="10" />
+        <quota galaxy="55" sector="10" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="[xenon]" relation="self" comparison="exact" matchextension="false" regionbasket="minerals_xenon" />
         <environment buildatshipyard="true" />
         <ship>
@@ -4499,7 +4499,7 @@
         </orders>
         <basket basket="energycells" />
         <category faction="xenon" tags="[factionlogic, freighter, trader]" size="ship_m" />
-        <quota galaxy="110" sector="3" />
+        <quota galaxy="50" sector="3" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="[xenon]" relation="self" comparison="exact" matchextension="false" />
         <environment buildatshipyard="true" />
         <ship>
@@ -4617,7 +4617,7 @@
           </order>
         </orders>
         <category faction="scaleplate" tags="[trader]" size="ship_s" />
-        <quota galaxy="50" sector="1" />
+        <quota galaxy="30" sector="1" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="xenon" relation="self" comparison="lt" matchextension="false" />
         <environment buildatshipyard="false" gate="true" />
         <basket basket="global_illegal" />
@@ -4680,7 +4680,7 @@
           </order>
         </orders>
         <category faction="argon" tags="[factionlogic, military, destroyer]" size="ship_l" />
-        <quota galaxy="8" sector="2" />
+        <quota galaxy="27" sector="2" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="[argon]" relation="self" comparison="exact" matchextension="false" />
         <environment buildatshipyard="true" />
         <ship>
@@ -4705,7 +4705,7 @@
           </order>
         </orders>
         <category faction="argon" tags="[factionlogic, military, destroyer]" size="ship_l" />
-        <quota galaxy="5" cluster="4" />
+        <quota galaxy="16" cluster="4" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="[argon]" relation="self" comparison="exact" matchextension="false" />
         <environment buildatshipyard="true" />
         <ship>
@@ -4726,7 +4726,7 @@
           </order>
         </orders>
         <category faction="argon" tags="[factionlogic, military, frigate]" size="ship_m" />
-        <quota galaxy="25" sector="3" />
+        <quota galaxy="75" sector="3" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="[argon]" relation="self" comparison="exact" matchextension="false" />
         <environment buildatshipyard="true" />
         <ship>
@@ -4750,7 +4750,7 @@
           </order>
         </orders>
         <category faction="argon" tags="[factionlogic, military, frigate]" size="ship_m" />
-        <quota galaxy="25" sector="3" />
+        <quota galaxy="75" sector="3" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="[argon]" relation="self" comparison="exact" matchextension="false" />
         <environment buildatshipyard="true" />
         <ship>
@@ -4774,7 +4774,7 @@
           </order>
         </orders>
         <category faction="argon" tags="[factionlogic, military, fighter]" size="ship_s" />
-        <quota galaxy="38" sector="4" zone="1" />
+        <quota galaxy="100" sector="4" zone="1" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="[argon]" relation="self" comparison="exact" matchextension="false" />
         <environment buildatshipyard="true" />
         <ship>
@@ -4796,7 +4796,7 @@
           <order order="Recon" default="true" />
         </orders>
         <category faction="argon" tags="[factionlogic, military, scout]" size="ship_s" />
-        <quota galaxy="8" sector="2" />
+        <quota galaxy="25" sector="2" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="argon" relation="self" comparison="not" matchextension="false" />
         <environment buildatshipyard="true" />
         <ship>
@@ -4815,7 +4815,7 @@
           <order order="Recon" default="true" />
         </orders>
         <category faction="argon" tags="[factionlogic, military, scout]" size="ship_s" />
-        <quota galaxy="8" sector="2" />
+        <quota galaxy="25" sector="2" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="argon" relation="killmilitary" comparison="le" matchextension="false" />
         <environment buildatshipyard="true" />
         <ship>
@@ -4903,6 +4903,7 @@
         <orders>
           <order order="Escort" default="true">
             <param name="formation" value="formationshape.pointguard" />
+            <param name="overrideformationskill" value="true" />
           </order>
         </orders>
         <quota wing="5" />
@@ -4946,6 +4947,7 @@
         <orders>
           <order order="Escort" default="true">
             <param name="formation" value="formationshape.pointguard" />
+            <param name="overrideformationskill" value="true" />
           </order>
         </orders>
         <category faction="argon" tags="[military, fighter]" size="ship_s" />
@@ -5035,7 +5037,7 @@
           </order>
         </orders>
         <category faction="antigone" tags="[factionlogic, military, destroyer]" size="ship_l" />
-        <quota galaxy="15" sector="2" />
+        <quota galaxy="27" sector="2" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="[antigone]" relation="self" comparison="exact" matchextension="false" />
         <environment buildatshipyard="true" />
         <ship>
@@ -5081,7 +5083,7 @@
           </order>
         </orders>
         <category faction="antigone" tags="[factionlogic, military, frigate]" size="ship_m" />
-        <quota galaxy="25" sector="3" />
+        <quota galaxy="75" sector="3" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="[antigone]" relation="self" comparison="exact" matchextension="false" />
         <environment buildatshipyard="true" />
         <ship>
@@ -5105,7 +5107,7 @@
           </order>
         </orders>
         <category faction="antigone" tags="[factionlogic, military, frigate]" size="ship_m" />
-        <quota galaxy="25" sector="3" />
+        <quota galaxy="75" sector="3" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="[antigone]" relation="self" comparison="exact" matchextension="false" />
         <environment buildatshipyard="true" />
         <ship>
@@ -5129,7 +5131,7 @@
           </order>
         </orders>
         <category faction="antigone" tags="[factionlogic, military, fighter]" size="ship_s" />
-        <quota galaxy="38" sector="4" zone="1" />
+        <quota galaxy="100" sector="4" zone="1" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="[antigone]" relation="self" comparison="exact" matchextension="false" />
         <environment buildatshipyard="true" />
         <ship>
@@ -5151,7 +5153,7 @@
           <order order="Recon" default="true" />
         </orders>
         <category faction="antigone" tags="[factionlogic, military, scout]" size="ship_s" />
-        <quota galaxy="8" sector="2" />
+        <quota galaxy="25" sector="2" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="antigone" relation="self" comparison="not" matchextension="false" />
         <environment buildatshipyard="true" />
         <ship>
@@ -5170,7 +5172,7 @@
           <order order="Recon" default="true" />
         </orders>
         <category faction="antigone" tags="[factionlogic, military, scout]" size="ship_s" />
-        <quota galaxy="8" sector="2" />
+        <quota galaxy="25" sector="2" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="antigone" relation="killmilitary" comparison="le" matchextension="false" />
         <environment buildatshipyard="true" />
         <ship>
@@ -5239,6 +5241,7 @@
         <orders>
           <order order="Escort" default="true">
             <param name="formation" value="formationshape.pointguard" />
+            <param name="overrideformationskill" value="true" />
           </order>
         </orders>
         <quota wing="5" />
@@ -5282,6 +5285,7 @@
         <orders>
           <order order="Escort" default="true">
             <param name="formation" value="formationshape.pointguard" />
+            <param name="overrideformationskill" value="true" />
           </order>
         </orders>
         <category faction="antigone" tags="[military, fighter]" size="ship_s" />
@@ -5371,7 +5375,7 @@
           </order>
         </orders>
         <category faction="paranid" tags="[factionlogic, military, destroyer]" size="ship_l" />
-        <quota galaxy="15" sector="2" />
+        <quota galaxy="27" sector="2" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="[paranid]" relation="self" comparison="exact" matchextension="false" />
         <environment buildatshipyard="true" />
         <ship>
@@ -5417,7 +5421,7 @@
           </order>
         </orders>
         <category faction="paranid" tags="[factionlogic, military, corvette]" size="ship_m" />
-        <quota galaxy="25" sector="3" />
+        <quota galaxy="75" sector="3" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="[paranid]" relation="self" comparison="exact" matchextension="false" />
         <environment buildatshipyard="true" />
         <ship>
@@ -5441,7 +5445,7 @@
           </order>
         </orders>
         <category faction="paranid" tags="[factionlogic, military, frigate]" size="ship_m" />
-        <quota galaxy="25" sector="3" />
+        <quota galaxy="75" sector="3" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="[paranid]" relation="self" comparison="exact" matchextension="false" />
         <environment buildatshipyard="true" />
         <ship>
@@ -5465,7 +5469,7 @@
           </order>
         </orders>
         <category faction="paranid" tags="[factionlogic, military, fighter]" size="ship_s" />
-        <quota galaxy="38" sector="4" zone="1" />
+        <quota galaxy="100" sector="4" zone="1" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="[paranid]" relation="self" comparison="exact" matchextension="false" />
         <environment buildatshipyard="true" />
         <ship>
@@ -5487,7 +5491,7 @@
           <order order="Recon" default="true" />
         </orders>
         <category faction="paranid" tags="[factionlogic, military, scout]" size="ship_s" />
-        <quota galaxy="8" sector="2" />
+        <quota galaxy="25" sector="2" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="paranid" relation="self" comparison="not" matchextension="false" />
         <environment buildatshipyard="true" />
         <ship>
@@ -5506,7 +5510,7 @@
           <order order="Recon" default="true" />
         </orders>
         <category faction="paranid" tags="[factionlogic, military, scout]" size="ship_s" />
-        <quota galaxy="8" sector="2" />
+        <quota galaxy="25" sector="2" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="paranid" relation="killmilitary" comparison="le" matchextension="false" />
         <environment buildatshipyard="true" />
         <ship>
@@ -5594,6 +5598,7 @@
         <orders>
           <order order="Escort" default="true">
             <param name="formation" value="formationshape.pointguard" />
+            <param name="overrideformationskill" value="true" />
           </order>
         </orders>
         <quota wing="5" />
@@ -5637,6 +5642,7 @@
         <orders>
           <order order="Escort" default="true">
             <param name="formation" value="formationshape.pointguard" />
+            <param name="overrideformationskill" value="true" />
           </order>
         </orders>
         <category faction="paranid" tags="[military, fighter]" size="ship_s" />
@@ -5726,7 +5732,7 @@
           </order>
         </orders>
         <category faction="holyorder" tags="[factionlogic, military, destroyer]" size="ship_l" />
-        <quota galaxy="15" sector="2" />
+        <quota galaxy="27" sector="2" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="[holyorder]" relation="self" comparison="exact" matchextension="false" />
         <environment buildatshipyard="true" />
         <ship>
@@ -5772,7 +5778,7 @@
           </order>
         </orders>
         <category faction="holyorder" tags="[factionlogic, military, corvette]" size="ship_m" />
-        <quota galaxy="25" sector="3" />
+        <quota galaxy="75" sector="3" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="[holyorder]" relation="self" comparison="exact" matchextension="false" />
         <environment buildatshipyard="true" />
         <ship>
@@ -5796,7 +5802,7 @@
           </order>
         </orders>
         <category faction="holyorder" tags="[factionlogic, military, frigate]" size="ship_m" />
-        <quota galaxy="25" sector="3" />
+        <quota galaxy="75" sector="3" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="[holyorder]" relation="self" comparison="exact" matchextension="false" />
         <environment buildatshipyard="true" />
         <ship>
@@ -5820,7 +5826,7 @@
           </order>
         </orders>
         <category faction="holyorder" tags="[factionlogic, military, fighter]" size="ship_s" />
-        <quota galaxy="38" sector="4" zone="1" />
+        <quota galaxy="100" sector="4" zone="1" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="[holyorder]" relation="self" comparison="exact" matchextension="false" />
         <environment buildatshipyard="true" />
         <ship>
@@ -5842,7 +5848,7 @@
           <order order="Recon" default="true" />
         </orders>
         <category faction="holyorder" tags="[factionlogic, military, scout]" size="ship_s" />
-        <quota galaxy="8" sector="2" />
+        <quota galaxy="25" sector="2" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="holyorder" relation="self" comparison="not" matchextension="false" />
         <environment buildatshipyard="true" />
         <ship>
@@ -5861,7 +5867,7 @@
           <order order="Recon" default="true" />
         </orders>
         <category faction="holyorder" tags="[factionlogic, military, scout]" size="ship_s" />
-        <quota galaxy="8" sector="2" />
+        <quota galaxy="25" sector="2" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="holyorder" relation="killmilitary" comparison="le" matchextension="false" />
         <environment buildatshipyard="true" />
         <ship>
@@ -5949,6 +5955,7 @@
         <orders>
           <order order="Escort" default="true">
             <param name="formation" value="formationshape.pointguard" />
+            <param name="overrideformationskill" value="true" />
           </order>
         </orders>
         <quota wing="5" />
@@ -5992,6 +5999,7 @@
         <orders>
           <order order="Escort" default="true">
             <param name="formation" value="formationshape.pointguard" />
+            <param name="overrideformationskill" value="true" />
           </order>
         </orders>
         <category faction="holyorder" tags="[military, fighter]" size="ship_s" />
@@ -6081,7 +6089,7 @@
           </order>
         </orders>
         <category faction="teladi" tags="[factionlogic, military, destroyer]" size="ship_l" />
-        <quota galaxy="15" sector="2" />
+        <quota galaxy="27" sector="2" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="[teladi]" relation="self" comparison="exact" matchextension="false" />
         <environment buildatshipyard="true" />
         <ship>
@@ -6127,7 +6135,7 @@
           </order>
         </orders>
         <category faction="teladi" tags="[factionlogic, military, frigate]" size="ship_m" />
-        <quota galaxy="25" sector="3" />
+        <quota galaxy="75" sector="3" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="[teladi]" relation="self" comparison="exact" matchextension="false" />
         <environment buildatshipyard="true" />
         <ship>
@@ -6151,7 +6159,7 @@
           </order>
         </orders>
         <category faction="teladi" tags="[factionlogic, military, frigate]" size="ship_m" />
-        <quota galaxy="25" sector="3" />
+        <quota galaxy="75" sector="3" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="[teladi]" relation="self" comparison="exact" matchextension="false" />
         <environment buildatshipyard="true" />
         <ship>
@@ -6175,7 +6183,7 @@
           </order>
         </orders>
         <category faction="teladi" tags="[factionlogic, military, fighter]" size="ship_s" />
-        <quota galaxy="38" sector="4" zone="1" />
+        <quota galaxy="100" sector="4" zone="1" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="[teladi]" relation="self" comparison="exact" matchextension="false" />
         <environment buildatshipyard="true" />
         <ship>
@@ -6197,7 +6205,7 @@
           <order order="Recon" default="true" />
         </orders>
         <category faction="teladi" tags="[factionlogic, military, scout]" size="ship_s" />
-        <quota galaxy="8" sector="2" />
+        <quota galaxy="25" sector="2" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="teladi" relation="self" comparison="not" matchextension="false" />
         <environment buildatshipyard="true" />
         <ship>
@@ -6216,7 +6224,7 @@
           <order order="Recon" default="true" />
         </orders>
         <category faction="teladi" tags="[factionlogic, military, scout]" size="ship_s" />
-        <quota galaxy="8" sector="2" />
+        <quota galaxy="25" sector="2" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="teladi" relation="killmilitary" comparison="le" matchextension="false" />
         <environment buildatshipyard="true" />
         <ship>
@@ -6285,6 +6293,7 @@
         <orders>
           <order order="Escort" default="true">
             <param name="formation" value="formationshape.pointguard" />
+            <param name="overrideformationskill" value="true" />
           </order>
         </orders>
         <quota wing="5" />
@@ -6328,6 +6337,7 @@
         <orders>
           <order order="Escort" default="true">
             <param name="formation" value="formationshape.pointguard" />
+            <param name="overrideformationskill" value="true" />
           </order>
         </orders>
         <category faction="teladi" tags="[military, fighter]" size="ship_s" />
@@ -6416,7 +6426,7 @@
           </order>
         </orders>
         <category faction="ministry" tags="[factionlogic, military, destroyer]" size="ship_l" />
-        <quota galaxy="15" sector="2" />
+        <quota galaxy="27" sector="2" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="[ministry, teladi]" relation="self" comparison="ge" matchextension="false" />
         <environment buildatshipyard="true" />
         <ship>
@@ -6462,7 +6472,7 @@
           </order>
         </orders>
         <category faction="ministry" tags="[factionlogic, military, frigate]" size="ship_m" />
-        <quota galaxy="25" sector="3" />
+        <quota galaxy="75" sector="3" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="[ministry, teladi]" relation="self" comparison="ge" matchextension="false" />
         <environment buildatshipyard="true" />
         <ship>
@@ -6486,7 +6496,7 @@
           </order>
         </orders>
         <category faction="ministry" tags="[factionlogic, military, frigate]" size="ship_m" />
-        <quota galaxy="25" sector="3" />
+        <quota galaxy="75" sector="3" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="[ministry, teladi]" relation="self" comparison="ge" matchextension="false" />
         <environment buildatshipyard="true" />
         <ship>
@@ -6510,7 +6520,7 @@
           </order>
         </orders>
         <category faction="ministry" tags="[factionlogic, military, fighter]" size="ship_s" />
-        <quota galaxy="38" sector="4" zone="1" />
+        <quota galaxy="100" sector="4" zone="1" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="[ministry, teladi]" relation="self" comparison="ge" matchextension="false" />
         <environment buildatshipyard="true" />
         <ship>
@@ -6532,7 +6542,7 @@
           <order order="Recon" default="true" />
         </orders>
         <category faction="ministry" tags="[factionlogic, military, scout]" size="ship_s" />
-        <quota galaxy="8" sector="2" />
+        <quota galaxy="25" sector="2" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="[ministry, teladi]" relation="self" comparison="not" matchextension="false" />
         <environment buildatshipyard="true" />
         <ship>
@@ -6551,7 +6561,7 @@
           <order order="Recon" default="true" />
         </orders>
         <category faction="ministry" tags="[factionlogic, military, scout]" size="ship_s" />
-        <quota galaxy="8" sector="2" />
+        <quota galaxy="25" sector="2" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="ministry" relation="killmilitary" comparison="le" matchextension="false" />
         <environment buildatshipyard="true" />
         <ship>
@@ -6641,6 +6651,7 @@
         <orders>
           <order order="Escort" default="true">
             <param name="formation" value="formationshape.pointguard" />
+            <param name="overrideformationskill" value="true" />
           </order>
         </orders>
         <quota wing="5" />
@@ -6684,6 +6695,7 @@
         <orders>
           <order order="Escort" default="true">
             <param name="formation" value="formationshape.pointguard" />
+            <param name="overrideformationskill" value="true" />
           </order>
         </orders>
         <category faction="ministry" tags="[military, fighter]" size="ship_s" />
@@ -6746,7 +6758,7 @@
           </order>
         </orders>
         <category faction="xenon" tags="[factionlogic, military, destroyer]" size="ship_xl" />
-        <quota galaxy="25" sector="3" />
+        <quota galaxy="50" sector="3" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="[xenon]" relation="self" comparison="exact" matchextension="false" />
         <environment buildatshipyard="true" />
         <ship>
@@ -6767,7 +6779,7 @@
           </order>
         </orders>
         <category faction="xenon" tags="[factionlogic, military, fighter]" size="ship_s" />
-        <quota galaxy="38" sector="4" zone="1" />
+        <quota galaxy="100" sector="4" zone="1" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="[xenon]" relation="self" comparison="exact" matchextension="false" />
         <environment buildatshipyard="true" />
         <ship>
@@ -6789,7 +6801,7 @@
           </order>
         </orders>
         <category faction="xenon" tags="[factionlogic, military, frigate]" size="ship_m" />
-        <quota galaxy="50" sector="1" />
+        <quota galaxy="25" sector="1" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="xenon" relation="enemy" comparison="le" matchextension="false" />
         <environment buildatshipyard="true" />
         <ship>
@@ -6807,7 +6819,7 @@
           <order order="Recon" default="true" />
         </orders>
         <category faction="xenon" tags="[factionlogic, military, scout]" size="ship_s" />
-        <quota galaxy="8" sector="2" />
+        <quota galaxy="25" sector="2" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="xenon" relation="self" comparison="not" matchextension="false" />
         <environment buildatshipyard="true" />
         <ship>
@@ -6822,7 +6834,7 @@
           <order order="Recon" default="true" />
         </orders>
         <category faction="xenon" tags="[factionlogic, military, scout]" size="ship_s" />
-        <quota galaxy="8" sector="2" />
+        <quota galaxy="25" sector="2" />
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="xenon" relation="killmilitary" comparison="le" matchextension="false" />
         <environment buildatshipyard="true" />
         <ship>
@@ -6836,6 +6848,7 @@
         <orders>
           <order order="Escort" default="true">
             <param name="formation" value="formationshape.invvshape" />
+            <param name="overrideformationskill" value="true" />
           </order>
         </orders>
         <category faction="xenon" tags="[military, destroyer]" size="ship_xl" />
@@ -6857,6 +6870,7 @@
           <order order="Escort" default="true">
             <param name="formation" value="formationshape.dartvertical" />
             <param name="formationparam" value="2500m" />
+            <param name="overrideformationskill" value="true" />
           </order>
         </orders>
         <category faction="xenon" tags="[military]" size="ship_m" />
@@ -6875,7 +6889,9 @@
 
       <job id="xenon_fighter_escort_s_frigate" name="{20204,3401}" startactive="false">
         <orders>
-          <order order="Escort" default="true"></order>
+          <order order="Escort" default="true">
+            <param name="overrideformationskill" value="true" />
+          </order>
         </orders>
         <category faction="xenon" tags="[military, fighter]" size="ship_s" />
         <quota wing="2" />
@@ -6890,7 +6906,9 @@
 
       <job id="xenon_fighter_escort_s_patrol" name="{20204,3401}" startactive="false">
         <orders>
-          <order order="Escort" default="true"></order>
+          <order order="Escort" default="true">
+            <param name="overrideformationskill" value="true" />
+          </order>
         </orders>
         <category faction="xenon" tags="[military, fighter]" size="ship_s" />
         <quota wing="2" />
@@ -7158,7 +7176,7 @@
           </order>
         </orders>
         <category faction="scaleplate" tags="[plunderer]" size="ship_m" />
-        <quota galaxy="18" sector="1" />
+        <quota galaxy="24" sector="1" />
         <!--<quota galaxy="3" sector="1"/>-->
         <!--<location class="galaxy" macro="xu_ep2_universe_macro" faction="[scaleplate, xenon]" relation="self" comparison="lt"/>-->
         <location class="galaxy" macro="xu_ep2_universe_macro" faction="xenon" relation="self" comparison="lt" matchextension="false" />
@@ -7192,7 +7210,7 @@
       <job id="masstraffic_argon_civilian">
         <task task="masstraffic.generic" />
         <location class="sector" factionrace="argon" matchextension="false" />
-        <quota sector="100" />
+        <quota sector="62" />
         <masstraffic ref="masstraffic_argon_civilian" />
       </job>
       <!--argon stations-->
@@ -7214,37 +7232,37 @@
       <job id="masstraffic_argon_dockarea">
         <task task="masstraffic.generic" />
         <location class="dockarea" factionrace="argon" matchextension="false" />
-        <quota station="10" />
+        <quota station="5" />
         <masstraffic ref="masstraffic_argon_dockarea" />
       </job>
       <job id="masstraffic_argon_pier">
         <task task="masstraffic.generic" />
         <location class="pier" factionrace="argon" matchextension="false" />
-        <quota station="20" />
+        <quota station="5" />
         <masstraffic ref="masstraffic_argon_pier" />
       </job>
       <job id="masstraffic_argon_storage">
         <task task="masstraffic.generic" />
         <location class="storage" factionrace="argon" matchextension="false" />
-        <quota station="20" />
+        <quota station="5" />
         <masstraffic ref="masstraffic_argon_storage" />
       </job>
       <job id="masstraffic_argon_production">
         <task task="masstraffic.generic" />
         <location class="production" factionrace="argon" matchextension="false" />
-        <quota station="20" />
+        <quota station="5" />
         <masstraffic ref="masstraffic_argon_production" />
       </job>
       <job id="masstraffic_argon_buildmodule">
         <task task="masstraffic.generic" />
         <location class="buildmodule" factionrace="argon" matchextension="false" />
-        <quota station="20" />
+        <quota station="5" />
         <masstraffic ref="masstraffic_argon_buildmodule" />
       </job>
       <job id="masstraffic_argon_defencemodule">
         <task task="masstraffic.generic" />
         <location class="defencemodule" factionrace="argon" matchextension="false" />
-        <quota station="20" />
+        <quota station="5" />
         <masstraffic ref="masstraffic_argon_defencemodule" />
       </job>
 
@@ -7252,7 +7270,7 @@
       <job id="masstraffic_teladi_civilian">
         <task task="masstraffic.generic" />
         <location class="sector" factionrace="teladi" matchextension="false" />
-        <quota sector="100" />
+        <quota sector="62" />
         <masstraffic ref="masstraffic_teladi_civilian" />
       </job>
       <!--teladi stations-->
@@ -7274,37 +7292,37 @@
       <job id="masstraffic_teladi_dockarea">
         <task task="masstraffic.generic" />
         <location class="dockarea" factionrace="teladi" matchextension="false" />
-        <quota station="20" />
+        <quota station="5" />
         <masstraffic ref="masstraffic_teladi_dockarea" />
       </job>
       <job id="masstraffic_teladi_pier">
         <task task="masstraffic.generic" />
         <location class="pier" factionrace="teladi" matchextension="false" />
-        <quota station="20" />
+        <quota station="5" />
         <masstraffic ref="masstraffic_teladi_pier" />
       </job>
       <job id="masstraffic_teladi_storage">
         <task task="masstraffic.generic" />
         <location class="storage" factionrace="teladi" matchextension="false" />
-        <quota station="20" />
+        <quota station="5" />
         <masstraffic ref="masstraffic_teladi_storage" />
       </job>
       <job id="masstraffic_teladi_production">
         <task task="masstraffic.generic" />
         <location class="production" factionrace="teladi" matchextension="false" />
-        <quota station="20" />
+        <quota station="5" />
         <masstraffic ref="masstraffic_teladi_production" />
       </job>
       <job id="masstraffic_teladi_buildmodule">
         <task task="masstraffic.generic" />
         <location class="buildmodule" factionrace="teladi" matchextension="false" />
-        <quota station="20" />
+        <quota station="5" />
         <masstraffic ref="masstraffic_teladi_buildmodule" />
       </job>
       <job id="masstraffic_teladi_defencemodule">
         <task task="masstraffic.generic" />
         <location class="defencemodule" factionrace="teladi" matchextension="false" />
-        <quota station="20" />
+        <quota station="5" />
         <masstraffic ref="masstraffic_teladi_defencemodule" />
       </job>
 
@@ -7312,7 +7330,7 @@
       <job id="masstraffic_paranid_civilian">
         <task task="masstraffic.generic" />
         <location class="sector" factionrace="paranid" matchextension="false" />
-        <quota sector="100" />
+        <quota sector="62" />
         <masstraffic ref="masstraffic_paranid_civilian" />
       </job>
       <!--paranid stations-->
@@ -7340,37 +7358,37 @@
       <job id="masstraffic_paranid_dockarea">
         <task task="masstraffic.generic" />
         <location class="dockarea" factionrace="paranid" matchextension="false" />
-        <quota station="20" />
+        <quota station="5" />
         <masstraffic ref="masstraffic_paranid_dockarea" />
       </job>
       <job id="masstraffic_paranid_pier">
         <task task="masstraffic.generic" />
         <location class="pier" factionrace="paranid" matchextension="false" />
-        <quota station="20" />
+        <quota station="5" />
         <masstraffic ref="masstraffic_paranid_pier" />
       </job>
       <job id="masstraffic_paranid_storage">
         <task task="masstraffic.generic" />
         <location class="storage" factionrace="paranid" matchextension="false" />
-        <quota station="20" />
+        <quota station="5" />
         <masstraffic ref="masstraffic_paranid_storage" />
       </job>
       <job id="masstraffic_paranid_production">
         <task task="masstraffic.generic" />
         <location class="production" factionrace="paranid" matchextension="false" />
-        <quota station="20" />
+        <quota station="5" />
         <masstraffic ref="masstraffic_paranid_production" />
       </job>
       <job id="masstraffic_paranid_buildmodule">
         <task task="masstraffic.generic" />
         <location class="buildmodule" factionrace="paranid" matchextension="false" />
-        <quota station="20" />
+        <quota station="5" />
         <masstraffic ref="masstraffic_paranid_buildmodule" />
       </job>
       <job id="masstraffic_paranid_defencemodule">
         <task task="masstraffic.generic" />
         <location class="defencemodule" factionrace="paranid" matchextension="false" />
-        <quota station="20" />
+        <quota station="5" />
         <masstraffic ref="masstraffic_paranid_defencemodule" />
       </job>
 
@@ -7378,13 +7396,13 @@
       <job id="masstraffic_xenon_civilian">
         <task task="masstraffic.generic" />
         <location class="sector" factionrace="xenon" matchextension="false" />
-        <quota sector="100" />
+        <quota sector="62" />
         <masstraffic ref="masstraffic_xenon_civilian" />
       </job>
       <job id="masstraffic_xenon_station">
         <task task="masstraffic.generic" />
         <location class="station" factionrace="xenon" matchextension="false" />
-        <quota station="50" />
+        <quota station="12" />
         <masstraffic ref="masstraffic_xenon_civilian" />
       </job>
 
@@ -7392,55 +7410,55 @@
       <job id="masstraffic_hab_arg_s_01">
         <task task="masstraffic.generic" />
         <location class="habitation" macro="hab_arg_s_01_macro" matchextension="false" />
-        <quota station="25" />
+        <quota station="12" />
         <masstraffic ref="masstraffic_argon_civilian" />
       </job>
       <job id="masstraffic_hab_arg_m_01">
         <task task="masstraffic.generic" />
         <location class="habitation" macro="hab_arg_m_01_macro" matchextension="false" />
-        <quota station="30" />
+        <quota station="15" />
         <masstraffic ref="masstraffic_argon_civilian" />
       </job>
       <job id="masstraffic_hab_arg_l_01">
         <task task="masstraffic.generic" />
         <location class="habitation" macro="hab_arg_l_01_macro" matchextension="false" />
-        <quota station="40" />
+        <quota station="17" />
         <masstraffic ref="masstraffic_argon_civilian" />
       </job>
       <job id="masstraffic_hab_tel_s_01">
         <task task="masstraffic.generic" />
         <location class="habitation" macro="hab_tel_s_01_macro" matchextension="false" />
-        <quota station="25" />
+        <quota station="12" />
         <masstraffic ref="masstraffic_teladi_civilian" />
       </job>
       <job id="masstraffic_hab_tel_m_01">
         <task task="masstraffic.generic" />
         <location class="habitation" macro="hab_arg_m_01_macro" matchextension="false" />
-        <quota station="30" />
+        <quota station="15" />
         <masstraffic ref="masstraffic_teladi_civilian" />
       </job>
       <job id="masstraffic_hab_tel_l_01">
         <task task="masstraffic.generic" />
         <location class="habitation" macro="hab_tel_l_01_macro" matchextension="false" />
-        <quota station="40" />
+        <quota station="17" />
         <masstraffic ref="masstraffic_teladi_civilian" />
       </job>
       <job id="masstraffic_hab_par_s_01">
         <task task="masstraffic.generic" />
         <location class="habitation" macro="hab_par_s_01_macro" matchextension="false" />
-        <quota station="25" />
+        <quota station="12" />
         <masstraffic ref="masstraffic_paranid_civilian" />
       </job>
       <job id="masstraffic_hab_par_m_01">
         <task task="masstraffic.generic" />
         <location class="habitation" macro="hab_par_m_01_macro" matchextension="false" />
-        <quota station="30" />
+        <quota station="15" />
         <masstraffic ref="masstraffic_paranid_civilian" />
       </job>
       <job id="masstraffic_hab_par_l_01">
         <task task="masstraffic.generic" />
         <location class="habitation" macro="hab_par_l_01_macro" matchextension="false" />
-        <quota station="40" />
+        <quota station="17" />
         <masstraffic ref="masstraffic_paranid_civilian" />
       </job>
 
